@@ -1,0 +1,827 @@
+[
+  {
+    "id": "5273023f-8704-4fc1-99b1-7b92864eca51",
+    "name": "Seaside Resort",
+    "priceCAD": 1001,
+    "priceUSD": 741,
+    "rating": 2.3,
+    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
+    "amenities": [
+      "Free parking",
+      "Non-smoking rooms",
+      "Indoor pool",
+      "24-hour front desk",
+      "Bar"
+    ],
+    "location": "Edmonton, AB"
+  },
+  {
+    "id": "9d3fc47b-5184-484f-b99a-ec4f8d9e252f",
+    "name": "Urban Stay",
+    "priceCAD": 1314,
+    "priceUSD": 972,
+    "rating": 3.0,
+    "description": "Guests can enjoy ocean views, private balconies, and a heated outdoor pool. Perfect for a relaxing getaway.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Bar",
+      "Indoor pool",
+      "Breakfast included"
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "id": "cd69d2b0-4047-4ccf-a6ee-61172f3d9d0c",
+    "name": "Modern Lodge",
+    "priceCAD": 1458,
+    "priceUSD": 1079,
+    "rating": 2.1,
+    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
+    "amenities": [
+      "24-hour front desk",
+      "Breakfast included",
+      "Non-smoking rooms",
+      "Indoor pool",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "location": "Vancouver, BC"
+  },
+  {
+    "id": "84ef9b8f-949e-4fbe-8512-2862e4abc6e9",
+    "name": "Royal Place",
+    "priceCAD": 524,
+    "priceUSD": 388,
+    "rating": 3.2,
+    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
+    "amenities": [
+      "Breakfast included",
+      "Indoor pool",
+      "Non-smoking rooms",
+      "Free parking"
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "id": "ebe25176-4712-448e-82e6-8152263385e8",
+    "name": "Lakeside Resort",
+    "priceCAD": 807,
+    "priceUSD": 597,
+    "rating": 3.1,
+    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
+    "amenities": [
+      "Indoor pool",
+      "Free parking",
+      "Free Wi-Fi",
+      "Non-smoking rooms",
+      "24-hour front desk",
+      "Breakfast included"
+    ],
+    "location": "Quebec City, QC"
+  },
+  {
+    "id": "595d49df-5313-4aee-b6db-8c03d3010e71",
+    "name": "Urban Inn",
+    "priceCAD": 1539,
+    "priceUSD": 1139,
+    "rating": 3.3,
+    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
+    "amenities": [
+      "Indoor pool",
+      "Bar",
+      "Free parking",
+      "24-hour front desk",
+      "Breakfast included",
+      "Free Wi-Fi",
+      "Non-smoking rooms"
+    ],
+    "location": "Calgary, AB"
+  },
+  {
+    "id": "b5367508-e116-44dd-9c3a-acb2ad145838",
+    "name": "Royal Haven",
+    "priceCAD": 1242,
+    "priceUSD": 919,
+    "rating": 2.3,
+    "description": "Conveniently located near shopping and dining districts, with luxury spa services and valet parking.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Free parking",
+      "Breakfast included",
+      "Bar",
+      "Free Wi-Fi",
+      "Indoor pool",
+      "24-hour front desk"
+    ],
+    "location": "Ottawa, ON"
+  },
+  {
+    "id": "267fee5e-f0cc-40db-92ef-3c7bfd26cd2e",
+    "name": "Lakeside Suites",
+    "priceCAD": 922,
+    "priceUSD": 682,
+    "rating": 2.4,
+    "description": "Charming interiors with vintage decor, garden access, and pet-friendly rooms. Great for families.",
+    "amenities": [
+      "24-hour front desk",
+      "Breakfast included",
+      "Free Wi-Fi",
+      "Free parking",
+      "Bar"
+    ],
+    "location": "Quebec City, QC"
+  },
+  {
+    "id": "5e15ada7-85b2-4ee4-833c-ea4529221292",
+    "name": "Sunny Lodge",
+    "priceCAD": 1821,
+    "priceUSD": 1348,
+    "rating": 3.9,
+    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Bar",
+      "Free Wi-Fi",
+      "24-hour front desk",
+      "Free parking",
+      "Indoor pool"
+    ],
+    "location": "Vancouver, BC"
+  },
+  {
+    "id": "826e89d1-b1a1-426f-a930-398f8038a1ac",
+    "name": "Lakeside Lodge",
+    "priceCAD": 1482,
+    "priceUSD": 1097,
+    "rating": 4.5,
+    "description": "Conveniently located near shopping and dining districts, with luxury spa services and valet parking.",
+    "amenities": [
+      "Indoor pool",
+      "Breakfast included",
+      "24-hour front desk",
+      "Bar",
+      "Free parking",
+      "Non-smoking rooms"
+    ],
+    "location": "Winnipeg, MB"
+  },
+  {
+    "id": "59e8a521-30f8-4dd3-93e5-11b8100523ab",
+    "name": "Sunny Hotel",
+    "priceCAD": 993,
+    "priceUSD": 735,
+    "rating": 4.4,
+    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
+    "amenities": [
+      "Non-smoking rooms",
+      "24-hour front desk",
+      "Indoor pool",
+      "Bar",
+      "Free parking",
+      "Breakfast included",
+      "Free Wi-Fi"
+    ],
+    "location": "Halifax, NS"
+  },
+  {
+    "id": "b46c10cc-8b8b-4a0d-bc6a-5072892e6047",
+    "name": "Seaside Villa",
+    "priceCAD": 839,
+    "priceUSD": 621,
+    "rating": 3.4,
+    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
+    "amenities": [
+      "Breakfast included",
+      "24-hour front desk",
+      "Free parking",
+      "Non-smoking rooms",
+      "Free Wi-Fi"
+    ],
+    "location": "Edmonton, AB"
+  },
+  {
+    "id": "85a91749-51c8-43e9-a2ea-ae3f6ae29a59",
+    "name": "Seaside Inn",
+    "priceCAD": 1824,
+    "priceUSD": 1350,
+    "rating": 3.8,
+    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
+    "amenities": [
+      "Indoor pool",
+      "Free Wi-Fi",
+      "24-hour front desk",
+      "Non-smoking rooms",
+      "Breakfast included",
+      "Free parking"
+    ],
+    "location": "Halifax, NS"
+  },
+  {
+    "id": "e0c452a4-be34-4043-aaf9-20d53c81969e",
+    "name": "Royal Place",
+    "priceCAD": 1402,
+    "priceUSD": 1037,
+    "rating": 2.6,
+    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
+    "amenities": [
+      "Breakfast included",
+      "Indoor pool",
+      "Non-smoking rooms",
+      "Free Wi-Fi",
+      "Bar",
+      "24-hour front desk",
+      "Free parking"
+    ],
+    "location": "Edmonton, AB"
+  },
+  {
+    "id": "60a27cab-43c2-4743-b37b-9e6ec60c0910",
+    "name": "Lakeside Lodge",
+    "priceCAD": 1326,
+    "priceUSD": 981,
+    "rating": 2.9,
+    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
+    "amenities": [
+      "Free parking",
+      "Non-smoking rooms",
+      "Bar",
+      "24-hour front desk"
+    ],
+    "location": "Victoria, BC"
+  },
+  {
+    "id": "249479ee-635e-4110-b0ba-d850495f1c41",
+    "name": "Seaside Hotel",
+    "priceCAD": 1875,
+    "priceUSD": 1388,
+    "rating": 4.1,
+    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Free Wi-Fi",
+      "24-hour front desk",
+      "Breakfast included",
+      "Free parking"
+    ],
+    "location": "Halifax, NS"
+  },
+  {
+    "id": "6c5411dd-6245-4548-b78e-c5bdbe5c9dbe",
+    "name": "Lakeside Haven",
+    "priceCAD": 646,
+    "priceUSD": 478,
+    "rating": 3.3,
+    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
+    "amenities": [
+      "Indoor pool",
+      "24-hour front desk",
+      "Bar",
+      "Breakfast included"
+    ],
+    "location": "Vancouver, BC"
+  },
+  {
+    "id": "30aa7743-d511-4e1a-8b42-646d9cc40ad6",
+    "name": "Urban Villa",
+    "priceCAD": 362,
+    "priceUSD": 268,
+    "rating": 3.4,
+    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Breakfast included",
+      "24-hour front desk",
+      "Bar",
+      "Indoor pool",
+      "Free Wi-Fi",
+      "Free parking"
+    ],
+    "location": "Halifax, NS"
+  },
+  {
+    "id": "d2b266f6-4c49-46dc-9db9-a546f2eb5cc1",
+    "name": "Royal Stay",
+    "priceCAD": 1024,
+    "priceUSD": 758,
+    "rating": 2.7,
+    "description": "Charming interiors with vintage decor, garden access, and pet-friendly rooms. Great for families.",
+    "amenities": [
+      "Bar",
+      "Non-smoking rooms",
+      "Breakfast included",
+      "24-hour front desk",
+      "Free Wi-Fi",
+      "Indoor pool",
+      "Free parking"
+    ],
+    "location": "Quebec City, QC"
+  },
+  {
+    "id": "fdf76e44-b0fc-4857-a365-86eb569051d4",
+    "name": "Mountain Stay",
+    "priceCAD": 575,
+    "priceUSD": 426,
+    "rating": 2.1,
+    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
+    "amenities": [
+      "Bar",
+      "Free Wi-Fi",
+      "Non-smoking rooms",
+      "Breakfast included"
+    ],
+    "location": "Winnipeg, MB"
+  },
+  {
+    "id": "8ebf251a-3b21-4a55-9f49-d8e875449580",
+    "name": "Mountain Lodge",
+    "priceCAD": 943,
+    "priceUSD": 698,
+    "rating": 3.3,
+    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Indoor pool",
+      "Breakfast included",
+      "24-hour front desk",
+      "Free parking",
+      "Free Wi-Fi",
+      "Bar"
+    ],
+    "location": "Montreal, QC"
+  },
+  {
+    "id": "a07ceb68-3049-46de-8e91-c09cc0487509",
+    "name": "Cozy Stay",
+    "priceCAD": 1282,
+    "priceUSD": 949,
+    "rating": 4.7,
+    "description": "Conveniently located near shopping and dining districts, with luxury spa services and valet parking.",
+    "amenities": [
+      "Indoor pool",
+      "Bar",
+      "Breakfast included",
+      "Non-smoking rooms"
+    ],
+    "location": "Montreal, QC"
+  },
+  {
+    "id": "078a5c98-ccb3-44d8-b956-7bb2f3cfc268",
+    "name": "Lakeside Place",
+    "priceCAD": 1880,
+    "priceUSD": 1391,
+    "rating": 4.7,
+    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
+    "amenities": [
+      "Indoor pool",
+      "Free Wi-Fi",
+      "Free parking",
+      "Bar",
+      "Breakfast included"
+    ],
+    "location": "Ottawa, ON"
+  },
+  {
+    "id": "4c729e70-f07c-4dba-8f10-d673c73ff848",
+    "name": "Elegant Place",
+    "priceCAD": 1803,
+    "priceUSD": 1334,
+    "rating": 4.7,
+    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
+    "amenities": [
+      "Free parking",
+      "Indoor pool",
+      "Breakfast included",
+      "24-hour front desk",
+      "Free Wi-Fi",
+      "Non-smoking rooms",
+      "Bar"
+    ],
+    "location": "Calgary, AB"
+  },
+  {
+    "id": "634c0b36-c922-4d91-9b00-ce34f68cb230",
+    "name": "Sunny Villa",
+    "priceCAD": 317,
+    "priceUSD": 235,
+    "rating": 4.2,
+    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
+    "amenities": [
+      "Free Wi-Fi",
+      "24-hour front desk",
+      "Indoor pool",
+      "Breakfast included",
+      "Free parking",
+      "Bar",
+      "Non-smoking rooms"
+    ],
+    "location": "Quebec City, QC"
+  },
+  {
+    "id": "33b8da40-6260-4bcf-bedf-a66856553cab",
+    "name": "Lakeside Haven",
+    "priceCAD": 508,
+    "priceUSD": 376,
+    "rating": 3.6,
+    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Breakfast included",
+      "Non-smoking rooms"
+    ],
+    "location": "Winnipeg, MB"
+  },
+  {
+    "id": "f9cdaf02-aa27-4b11-a9a4-6346d9c92975",
+    "name": "Lakeside Stay",
+    "priceCAD": 268,
+    "priceUSD": 198,
+    "rating": 2.3,
+    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
+    "amenities": [
+      "Indoor pool",
+      "Non-smoking rooms",
+      "Bar",
+      "Free parking",
+      "24-hour front desk",
+      "Free Wi-Fi",
+      "Breakfast included"
+    ],
+    "location": "Ottawa, ON"
+  },
+  {
+    "id": "a12ebf22-4c19-461d-a776-cad4bb738891",
+    "name": "Royal Stay",
+    "priceCAD": 1032,
+    "priceUSD": 764,
+    "rating": 4.6,
+    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Non-smoking rooms",
+      "Indoor pool",
+      "Breakfast included",
+      "Free parking",
+      "Bar"
+    ],
+    "location": "Quebec City, QC"
+  },
+  {
+    "id": "7962bead-9e6c-4f4c-9106-01f693e34022",
+    "name": "Peaceful Villa",
+    "priceCAD": 480,
+    "priceUSD": 355,
+    "rating": 3.6,
+    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
+    "amenities": [
+      "24-hour front desk",
+      "Bar",
+      "Non-smoking rooms",
+      "Breakfast included"
+    ],
+    "location": "Ottawa, ON"
+  },
+  {
+    "id": "82ff3317-6963-4084-ab35-ab8324046636",
+    "name": "Mountain Place",
+    "priceCAD": 405,
+    "priceUSD": 300,
+    "rating": 4.3,
+    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
+    "amenities": [
+      "24-hour front desk",
+      "Free Wi-Fi",
+      "Non-smoking rooms",
+      "Indoor pool",
+      "Bar",
+      "Free parking",
+      "Breakfast included"
+    ],
+    "location": "Winnipeg, MB"
+  },
+  {
+    "id": "94d5bf98-162f-4916-a9f3-73767f5b64d3",
+    "name": "Cozy Inn",
+    "priceCAD": 366,
+    "priceUSD": 271,
+    "rating": 3.3,
+    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
+    "amenities": [
+      "24-hour front desk",
+      "Breakfast included",
+      "Non-smoking rooms",
+      "Free parking",
+      "Indoor pool"
+    ],
+    "location": "Winnipeg, MB"
+  },
+  {
+    "id": "a2bcf04a-0e0a-4892-8400-b60f142de28d",
+    "name": "Sunny Suites",
+    "priceCAD": 88,
+    "priceUSD": 65,
+    "rating": 4.4,
+    "description": "Charming interiors with vintage decor, garden access, and pet-friendly rooms. Great for families.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Bar",
+      "Indoor pool",
+      "Breakfast included",
+      "Non-smoking rooms"
+    ],
+    "location": "Halifax, NS"
+  },
+  {
+    "id": "1ef5cd6a-722f-4ebb-adcf-932eadd2205d",
+    "name": "Urban Hotel",
+    "priceCAD": 136,
+    "priceUSD": 101,
+    "rating": 2.8,
+    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
+    "amenities": [
+      "Bar",
+      "24-hour front desk",
+      "Non-smoking rooms",
+      "Indoor pool",
+      "Breakfast included"
+    ],
+    "location": "Victoria, BC"
+  },
+  {
+    "id": "fb51c4dd-ea87-479c-b01d-98d98193fdba",
+    "name": "Elegant Villa",
+    "priceCAD": 1882,
+    "priceUSD": 1393,
+    "rating": 3.8,
+    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Indoor pool",
+      "Free parking",
+      "Breakfast included"
+    ],
+    "location": "Edmonton, AB"
+  },
+  {
+    "id": "723226ce-b681-4048-9e43-b97900964308",
+    "name": "Cozy Place",
+    "priceCAD": 1636,
+    "priceUSD": 1211,
+    "rating": 2.5,
+    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
+    "amenities": [
+      "Free parking",
+      "Bar",
+      "24-hour front desk",
+      "Non-smoking rooms",
+      "Indoor pool",
+      "Breakfast included"
+    ],
+    "location": "Ottawa, ON"
+  },
+  {
+    "id": "cf54afa7-1c01-4c2e-a9e7-a2964dc72267",
+    "name": "Modern Haven",
+    "priceCAD": 1073,
+    "priceUSD": 794,
+    "rating": 4.4,
+    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
+    "amenities": [
+      "Breakfast included",
+      "Bar",
+      "Non-smoking rooms",
+      "Free parking",
+      "Indoor pool"
+    ],
+    "location": "Calgary, AB"
+  },
+  {
+    "id": "6f710cc5-a42f-4c72-9dfc-8cb2eca062d4",
+    "name": "Cozy Hotel",
+    "priceCAD": 792,
+    "priceUSD": 586,
+    "rating": 2.4,
+    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
+    "amenities": [
+      "Free Wi-Fi",
+      "24-hour front desk",
+      "Free parking",
+      "Non-smoking rooms",
+      "Bar"
+    ],
+    "location": "Vancouver, BC"
+  },
+  {
+    "id": "2659b506-52d9-429a-a59f-6b3466f61f8b",
+    "name": "Lakeside Place",
+    "priceCAD": 831,
+    "priceUSD": 615,
+    "rating": 3.2,
+    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
+    "amenities": [
+      "Indoor pool",
+      "Non-smoking rooms",
+      "Breakfast included",
+      "24-hour front desk",
+      "Free parking",
+      "Free Wi-Fi"
+    ],
+    "location": "Halifax, NS"
+  },
+  {
+    "id": "3a93d360-d4ea-48f4-b3a3-6949e4025b26",
+    "name": "Modern Retreat",
+    "priceCAD": 1081,
+    "priceUSD": 800,
+    "rating": 2.9,
+    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Indoor pool",
+      "24-hour front desk",
+      "Non-smoking rooms"
+    ],
+    "location": "Quebec City, QC"
+  },
+  {
+    "id": "dd7ef9ed-8bef-4192-bd64-ef728076d88c",
+    "name": "Sunny Inn",
+    "priceCAD": 1484,
+    "priceUSD": 1098,
+    "rating": 3.7,
+    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
+    "amenities": [
+      "Free parking",
+      "Free Wi-Fi",
+      "24-hour front desk",
+      "Breakfast included",
+      "Bar",
+      "Indoor pool"
+    ],
+    "location": "Ottawa, ON"
+  },
+  {
+    "id": "35dff913-0915-42bd-9d9a-8f5ca14cb12b",
+    "name": "Seaside Haven",
+    "priceCAD": 1537,
+    "priceUSD": 1137,
+    "rating": 3.7,
+    "description": "Charming interiors with vintage decor, garden access, and pet-friendly rooms. Great for families.",
+    "amenities": [
+      "24-hour front desk",
+      "Free parking",
+      "Indoor pool",
+      "Non-smoking rooms",
+      "Breakfast included",
+      "Free Wi-Fi",
+      "Bar"
+    ],
+    "location": "Quebec City, QC"
+  },
+  {
+    "id": "09584910-f4fe-4521-887e-34eacdfcc235",
+    "name": "Cozy Haven",
+    "priceCAD": 1985,
+    "priceUSD": 1469,
+    "rating": 3.9,
+    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
+    "amenities": [
+      "24-hour front desk",
+      "Free parking",
+      "Breakfast included",
+      "Non-smoking rooms"
+    ],
+    "location": "Halifax, NS"
+  },
+  {
+    "id": "cfc1f2e9-0380-4129-95fa-651b9456c10a",
+    "name": "Urban Haven",
+    "priceCAD": 1467,
+    "priceUSD": 1086,
+    "rating": 4.9,
+    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Bar",
+      "24-hour front desk",
+      "Indoor pool",
+      "Free parking"
+    ],
+    "location": "Ottawa, ON"
+  },
+  {
+    "id": "3ca76730-0e8b-4319-9d61-4af2a3dedc0a",
+    "name": "Seaside Haven",
+    "priceCAD": 1161,
+    "priceUSD": 859,
+    "rating": 4.4,
+    "description": "Guests can enjoy ocean views, private balconies, and a heated outdoor pool. Perfect for a relaxing getaway.",
+    "amenities": [
+      "Indoor pool",
+      "24-hour front desk",
+      "Free Wi-Fi",
+      "Breakfast included",
+      "Free parking"
+    ],
+    "location": "Ottawa, ON"
+  },
+  {
+    "id": "29ecc043-ef66-4923-a344-3f277e4e2bc0",
+    "name": "Peaceful Villa",
+    "priceCAD": 1828,
+    "priceUSD": 1353,
+    "rating": 4.1,
+    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Free Wi-Fi",
+      "Free parking",
+      "24-hour front desk",
+      "Breakfast included",
+      "Bar",
+      "Indoor pool"
+    ],
+    "location": "Edmonton, AB"
+  },
+  {
+    "id": "c44dde18-7a13-4078-a55c-e9f6479af2b2",
+    "name": "Royal Place",
+    "priceCAD": 631,
+    "priceUSD": 467,
+    "rating": 5.0,
+    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
+    "amenities": [
+      "24-hour front desk",
+      "Free Wi-Fi",
+      "Bar",
+      "Free parking",
+      "Non-smoking rooms"
+    ],
+    "location": "Ottawa, ON"
+  },
+  {
+    "id": "45bd6ab9-b3e9-459d-a36d-8016269df79b",
+    "name": "Elegant Suites",
+    "priceCAD": 776,
+    "priceUSD": 574,
+    "rating": 2.2,
+    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
+    "amenities": [
+      "Bar",
+      "Free parking",
+      "Breakfast included",
+      "Non-smoking rooms",
+      "Free Wi-Fi",
+      "24-hour front desk",
+      "Indoor pool"
+    ],
+    "location": "Toronto, ON"
+  },
+  {
+    "id": "4536e63a-765f-4f4f-a2a4-772be819c56a",
+    "name": "Cozy Place",
+    "priceCAD": 802,
+    "priceUSD": 593,
+    "rating": 4.7,
+    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
+    "amenities": [
+      "Bar",
+      "24-hour front desk",
+      "Indoor pool",
+      "Free Wi-Fi",
+      "Breakfast included"
+    ],
+    "location": "Halifax, NS"
+  },
+  {
+    "id": "a10a57bd-9533-4e94-8864-e69b6210656f",
+    "name": "Royal Hotel",
+    "priceCAD": 1325,
+    "priceUSD": 980,
+    "rating": 3.6,
+    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Free Wi-Fi",
+      "Indoor pool",
+      "Breakfast included"
+    ],
+    "location": "Calgary, AB"
+  },
+  {
+    "id": "f86b9c30-e284-486e-9ec5-3b2cd8d165e6",
+    "name": "Modern Retreat",
+    "priceCAD": 836,
+    "priceUSD": 619,
+    "rating": 3.5,
+    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
+    "amenities": [
+      "Indoor pool",
+      "Bar",
+      "Non-smoking rooms",
+      "Free Wi-Fi"
+    ],
+    "location": "Vancouver, BC"
+  }
+]
