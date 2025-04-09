@@ -37,4 +37,10 @@ p{
   flex-direction: row;
   align-items: center;
   border-radius: 2px;
+  &:active {
+    background-color: $color-gold-dark;
+  }
+  //   &:hover {
+    
+  // }
 }
