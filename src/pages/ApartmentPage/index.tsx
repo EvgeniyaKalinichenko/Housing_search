@@ -1,5 +1,12 @@
 import { Key } from "react";
-import { ApartmentPageProps } from "../../inrerface";
+
+export interface ApartmentPageProps {
+  photos: {
+    id: Key | null | undefined;
+    src: { medium: string | undefined };
+    alt: string | undefined;
+  }[];
+}
 
 export const ApartmentPage = ({ photos }: ApartmentPageProps) => {
   return (

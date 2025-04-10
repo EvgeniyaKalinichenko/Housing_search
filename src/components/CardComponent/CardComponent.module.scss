@@ -1,0 +1,31 @@
+@import "../../styles.scss";
+
+.card {
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 300px;
+  width: 200px;
+  // display: flex;
+  // align-items: flex-end;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  color: $white-text-color;
+  font-family: $main-font;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.location, .price{
+  color: $white-text-color;
+}
+
+.content {
+  background: rgba(0, 0, 0, 0.5);
+  // color: white;
+  padding: 16px;
+  width: 100%;
+  height: 100%;
+}

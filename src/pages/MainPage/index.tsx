@@ -1,5 +1,5 @@
+import { Button } from "../../components/Button";
 import styles from "./MainPage.module.scss";
-import { SlArrowRightCircle } from "react-icons/sl";
 
 export const MainPage = () => {
   return (
@@ -7,10 +7,9 @@ export const MainPage = () => {
       <h1>Find your next stay</h1>
       <p>Search deals on hotels, homes, and much more. </p>
       <p>Feel freedom and quality of life.</p>
-      <button className={styles.button}>
-        Search
-        <SlArrowRightCircle />
-      </button>
+      <div className={styles.button}>
+      <Button text="Search" small={false} />
+      </div>
     </div>
   );
 };

@@ -1,0 +1,43 @@
+@import "../../styles.scss";
+.button {
+  background-color: $color-gold;
+  font-family: $main-font;
+  color: $white-text-color;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 2px;
+  &:active {
+    background-color: $color-gold-dark;
+  }
+  //   &:hover {
+  //     background-color: #E6B230;
+  // }
+}
+
+.smallButton{
+  background-color: $color-gold;
+  color: $white-text-color;
+  font-family: $main-font;
+  border: none;
+  padding: 10px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 2px;
+  &:active {
+    background-color: $color-gold-dark;
+  }
+
+}

@@ -10,37 +10,19 @@
 
 h1 {
   font-size: 2.5rem;
-  color: $wite-text-color;
+  color: $white-text-color;
   padding-left: 150px;
   padding-top: 150px;
   display: inline-block;
 }
 
 p{
-  color: $wite-text-color;
+  color: $white-text-color;
   padding-left: 150px;
   // box-shadow: 0px 0px 10px #000000;
 }
 
 .button {
-  background-color: $color-gold;
-  color: $wite-text-color;
-  border: none;
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  cursor: pointer;
   margin-left: 150px;
   margin-top: 50px;
-  width: 180px;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: center;
-  border-radius: 2px;
-  &:active {
-    background-color: $color-gold-dark;
-  }
-  //   &:hover {
-    
-  // }
 }

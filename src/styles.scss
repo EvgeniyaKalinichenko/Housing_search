@@ -7,4 +7,13 @@ $color-dark: #1E1E1E;
 
 // text colors
 $black-text-color: $color-dark;
-$wite-text-color: #fcfcfc;
+$white-text-color: #fcfcfc;
+
+// font families
+$main-font: "main-font";
+
+@font-face {
+  font-family: "main-font";
+  src: url("./src/assets/Fonts/CormorantGaramond-Light.ttf")
+  
+}
