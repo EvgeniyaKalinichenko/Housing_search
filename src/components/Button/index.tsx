@@ -4,6 +4,7 @@ import styles from "./Button.module.scss";
 type ButtonProps = {
   text: string;
   small: boolean;
+  onClick?: () => void;
 };
 
 export const Button = ({ text, small}: ButtonProps) => {

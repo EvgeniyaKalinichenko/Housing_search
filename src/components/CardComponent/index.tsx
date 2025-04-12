@@ -10,15 +10,18 @@ type CardComponentProps = {
   description: string;
   amenities: string[];
   location: string; 
-  imageUrl: string; 
+  imageUrl: string;
+  apartmentOpen: boolean;
+  setApartmentOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  onClick?: () => void;
 };
-
 const PropertyCard = ({
   name,
   location,
   priceCAD,
   priceUSD,
   imageUrl,
+  setApartmentOpen,
 }: CardComponentProps) => {
   return (
     <div
@@ -30,7 +33,7 @@ const PropertyCard = ({
         <div className={styles.location}>{location}</div>
         <p>${priceCAD} CAD</p>
         <p>${priceUSD} USD</p>
-        <Button text="See availability" small/>
+        <Button text="See availability" small onClick={() => setApartmentOpen(true)}/>
       </div>
     </div>
   );
