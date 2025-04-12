@@ -1,8 +1,8 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MainPage from "./pages/MainPage";
 import Header from "./components/Header";
-import SeachPage from "./pages/SeachPage";
+import MainPage from "./pages/MainPage";
+import SearchPage from "./pages/SearchPage";
 import ApartmentPage from "./pages/ApartmentPage";
 
 function App() {
@@ -11,8 +11,8 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/seach" element={<SeachPage />} />
-        <Route path="/apartment" element={<ApartmentPage photos={[]} />} />
+        <Route path="/search" element={<SearchPage />} />
+        <Route path="/apartment/:id" element={<ApartmentPage />} />
       </Routes>
     </Router>
   );

@@ -1,42 +1,34 @@
+import { useNavigate } from "react-router-dom";
+import { Property } from "..//../types.ts";
 import { Button } from "../Button";
 import styles from "./CardComponent.module.scss";
 
-type CardComponentProps = {
-  id: string;
-  name: string;
-  priceCAD: number;
-  priceUSD: number;
-  rating: number;
-  description: string;
-  amenities: string[];
-  location: string; 
-  imageUrl: string;
-  apartmentOpen: boolean;
-  setApartmentOpen: React.Dispatch<React.SetStateAction<boolean>>;
-  onClick?: () => void;
-};
-const PropertyCard = ({
-  name,
-  location,
-  priceCAD,
-  priceUSD,
-  imageUrl,
-  setApartmentOpen,
-}: CardComponentProps) => {
+export interface CardComponentProps {
+  property: Property;
+  onClick?: () => void; 
+}
+
+const CardComponent = ({ property, onClick }: CardComponentProps) => {
+  const navigate = useNavigate();
+
   return (
     <div
       className={styles.card}
-      style={{ backgroundImage: `url(${imageUrl})` }}
+      style={{ backgroundImage: `url(${property.imageUrl})` }}
     >
       <div className={styles.content}>
-        <h3>{name}</h3>
-        <div className={styles.location}>{location}</div>
-        <p>${priceCAD} CAD</p>
-        <p>${priceUSD} USD</p>
-        <Button text="See availability" small onClick={() => setApartmentOpen(true)}/>
+        <h3>{property.name}</h3>
+        <div className={styles.location}>{property.location}</div>
+        <p>${property.priceUSD} USD </p>
+        <p>${property.priceCAD} CAD</p>
+        <Button
+          text="See availability"
+          small
+          onClick={onClick ?? (() => navigate(`/apartment/${property.id}`))}
+        />
       </div>
     </div>
   );
 };
 
-export default PropertyCard;
+export default CardComponent;

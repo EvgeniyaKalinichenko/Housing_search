@@ -3,13 +3,13 @@ import styles from "./Button.module.scss";
 
 type ButtonProps = {
   text: string;
-  small: boolean;
+  small?: boolean;
   onClick?: () => void;
 };
 
-export const Button = ({ text, small}: ButtonProps) => {
+export const Button: React.FC<ButtonProps> = ({ text, small=false, onClick }: ButtonProps) => {
   return (
-    <button className={small ? styles.smallButton : styles.button}>
+    <button type="button" className={small ? styles.smallButton : styles.button} onClick={onClick}>
       {text}
       <SlArrowRightCircle />
     </button>
