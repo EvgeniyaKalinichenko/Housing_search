@@ -1,827 +1,818 @@
 [
   {
-    "id": "5273023f-8704-4fc1-99b1-7b92864eca51",
-    "name": "Seaside Resort",
-    "priceCAD": 1001,
-    "priceUSD": 741,
-    "rating": 2.3,
-    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
-    "amenities": [
-      "Free parking",
-      "Non-smoking rooms",
-      "Indoor pool",
-      "24-hour front desk",
-      "Bar"
-    ],
-    "location": "Edmonton, AB"
-  },
-  {
-    "id": "9d3fc47b-5184-484f-b99a-ec4f8d9e252f",
-    "name": "Urban Stay",
-    "priceCAD": 1314,
-    "priceUSD": 972,
-    "rating": 3.0,
-    "description": "Guests can enjoy ocean views, private balconies, and a heated outdoor pool. Perfect for a relaxing getaway.",
-    "amenities": [
-      "Non-smoking rooms",
-      "Bar",
-      "Indoor pool",
-      "Breakfast included"
-    ],
-    "location": "Toronto, ON"
-  },
-  {
-    "id": "cd69d2b0-4047-4ccf-a6ee-61172f3d9d0c",
-    "name": "Modern Lodge",
-    "priceCAD": 1458,
-    "priceUSD": 1079,
-    "rating": 2.1,
-    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
-    "amenities": [
-      "24-hour front desk",
-      "Breakfast included",
-      "Non-smoking rooms",
-      "Indoor pool",
-      "Free parking",
-      "Free Wi-Fi"
-    ],
-    "location": "Vancouver, BC"
-  },
-  {
-    "id": "84ef9b8f-949e-4fbe-8512-2862e4abc6e9",
-    "name": "Royal Place",
-    "priceCAD": 524,
-    "priceUSD": 388,
-    "rating": 3.2,
-    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
-    "amenities": [
-      "Breakfast included",
-      "Indoor pool",
-      "Non-smoking rooms",
-      "Free parking"
-    ],
-    "location": "Toronto, ON"
-  },
-  {
-    "id": "ebe25176-4712-448e-82e6-8152263385e8",
-    "name": "Lakeside Resort",
-    "priceCAD": 807,
-    "priceUSD": 597,
-    "rating": 3.1,
-    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
-    "amenities": [
-      "Indoor pool",
-      "Free parking",
-      "Free Wi-Fi",
-      "Non-smoking rooms",
-      "24-hour front desk",
-      "Breakfast included"
-    ],
-    "location": "Quebec City, QC"
-  },
-  {
-    "id": "595d49df-5313-4aee-b6db-8c03d3010e71",
-    "name": "Urban Inn",
-    "priceCAD": 1539,
-    "priceUSD": 1139,
-    "rating": 3.3,
-    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
-    "amenities": [
-      "Indoor pool",
-      "Bar",
-      "Free parking",
-      "24-hour front desk",
-      "Breakfast included",
-      "Free Wi-Fi",
-      "Non-smoking rooms"
-    ],
-    "location": "Calgary, AB"
-  },
-  {
-    "id": "b5367508-e116-44dd-9c3a-acb2ad145838",
-    "name": "Royal Haven",
-    "priceCAD": 1242,
-    "priceUSD": 919,
-    "rating": 2.3,
-    "description": "Conveniently located near shopping and dining districts, with luxury spa services and valet parking.",
-    "amenities": [
-      "Non-smoking rooms",
-      "Free parking",
-      "Breakfast included",
-      "Bar",
-      "Free Wi-Fi",
-      "Indoor pool",
-      "24-hour front desk"
-    ],
-    "location": "Ottawa, ON"
-  },
-  {
-    "id": "267fee5e-f0cc-40db-92ef-3c7bfd26cd2e",
-    "name": "Lakeside Suites",
-    "priceCAD": 922,
-    "priceUSD": 682,
-    "rating": 2.4,
-    "description": "Charming interiors with vintage decor, garden access, and pet-friendly rooms. Great for families.",
-    "amenities": [
-      "24-hour front desk",
-      "Breakfast included",
-      "Free Wi-Fi",
-      "Free parking",
-      "Bar"
-    ],
-    "location": "Quebec City, QC"
-  },
-  {
-    "id": "5e15ada7-85b2-4ee4-833c-ea4529221292",
-    "name": "Sunny Lodge",
-    "priceCAD": 1821,
-    "priceUSD": 1348,
-    "rating": 3.9,
-    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
-    "amenities": [
-      "Non-smoking rooms",
-      "Bar",
-      "Free Wi-Fi",
-      "24-hour front desk",
-      "Free parking",
-      "Indoor pool"
-    ],
-    "location": "Vancouver, BC"
-  },
-  {
-    "id": "826e89d1-b1a1-426f-a930-398f8038a1ac",
-    "name": "Lakeside Lodge",
-    "priceCAD": 1482,
-    "priceUSD": 1097,
+    "id": "1",
+    "name": "Sunset Lodge",
+    "priceCAD": 780,
+    "priceUSD": 585,
     "rating": 4.5,
-    "description": "Conveniently located near shopping and dining districts, with luxury spa services and valet parking.",
+    "description": "Sunset Lodge is located in the heart of Mumbai, India, within walking distance to the main shopping district and business district. The hotel offers Bar, Laundry service, and Non-smoking rooms. Each room features in-room coffee maker and balcony, and free on-site parking is provided. Nearby attractions include shopping malls, theaters, and nightlife districts.",
     "amenities": [
-      "Indoor pool",
-      "Breakfast included",
-      "24-hour front desk",
-      "Bar",
+      "Pet-friendly",
       "Free parking",
-      "Non-smoking rooms"
+      "Air conditioning"
     ],
-    "location": "Winnipeg, MB"
+    "location": "Mumbai, India",
+    "imageUrl": "https://images.pexels.com/photos/358696/pexels-photo-358696.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
-    "id": "59e8a521-30f8-4dd3-93e5-11b8100523ab",
-    "name": "Sunny Hotel",
-    "priceCAD": 993,
+    "id": "2",
+    "name": "Crystal Inn",
+    "priceCAD": 784,
+    "priceUSD": 588,
+    "rating": 3.1,
+    "description": "Crystal Inn is located in the heart of Madrid, Spain, within walking distance to the business district and train station. The hotel offers Laundry service, Free parking, and Free Wi-Fi. Each room features balcony and cable TV, and free complimentary breakfast is provided. Nearby attractions include beaches, historic sites, and nightlife districts.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Pet-friendly",
+      "Room service",
+      "Free Wi-Fi",
+      "Breakfast included"
+    ],
+    "location": "Madrid, Spain",
+    "imageUrl": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "3",
+    "name": "Pearl Villa",
+    "priceCAD": 621,
+    "priceUSD": 465,
+    "rating": 4.4,
+    "description": "Pearl Villa is located in the heart of Halifax, NS, Canada, within walking distance to the business district and historic district. The hotel offers Restaurant, Non-smoking rooms, and 24-hour front desk. Each room features refrigerator and desk, and free shuttle service is provided. Nearby attractions include beaches, shopping malls, and parks.",
+    "amenities": [
+      "Airport shuttle",
+      "Gym",
+      "Breakfast included",
+      "Air conditioning"
+    ],
+    "location": "Halifax, NS, Canada",
+    "imageUrl": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "4",
+    "name": "Cozy Villa",
+    "priceCAD": 733,
+    "priceUSD": 549,
+    "rating": 4.1,
+    "description": "Cozy Villa is located in the heart of Copenhagen, Denmark, within walking distance to the business district and airport. The hotel offers Spa, Indoor pool, and Gym. Each room features balcony and mini-bar, and free 24-hour room service is provided. Nearby attractions include parks, restaurants, and theaters.",
+    "amenities": [
+      "24-hour front desk",
+      "Breakfast included",
+      "Restaurant",
+      "Non-smoking rooms",
+      "Bar"
+    ],
+    "location": "Copenhagen, Denmark",
+    "imageUrl": "https://images.pexels.com/photos/2698519/pexels-photo-2698519.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "5",
+    "name": "Crystal Suites",
+    "priceCAD": 316,
+    "priceUSD": 237,
+    "rating": 3.4,
+    "description": "Crystal Suites is located in the heart of Budapest, Hungary, within walking distance to the train station and business district. The hotel offers Gym, Breakfast included, and Spa. Each room features balcony and in-room coffee maker, and free 24-hour room service is provided. Nearby attractions include parks, beaches, and shopping malls.",
+    "amenities": [
+      "Pet-friendly",
+      "Air conditioning",
+      "24-hour front desk",
+      "Airport shuttle"
+    ],
+    "location": "Budapest, Hungary",
+    "imageUrl": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "6",
+    "name": "Vista Resort",
+    "priceCAD": 1838,
+    "priceUSD": 1378,
+    "rating": 3.4,
+    "description": "Vista Resort is located in the heart of Stockholm, Sweden, within walking distance to the historic district and business district. The hotel offers Airport shuttle, Gym, and Pet-friendly. Each room features cable TV and mini-bar, and free shuttle service is provided. Nearby attractions include beaches, restaurants, and theaters.",
+    "amenities": [
+      "Breakfast included",
+      "Room service",
+      "Spa"
+    ],
+    "location": "Stockholm, Sweden",
+    "imageUrl": "https://images.pexels.com/photos/1454803/pexels-photo-1454803.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "7",
+    "name": "Luxe Resort",
+    "priceCAD": 1948,
+    "priceUSD": 1461,
+    "rating": 4.4,
+    "description": "Luxe Resort is located in the heart of Mexico City, Mexico, within walking distance to the airport and city center. The hotel offers Laundry service, Pet-friendly, and Room service. Each room features desk and balcony, and free shuttle service is provided. Nearby attractions include shopping malls, theaters, and historic sites.",
+    "amenities": [
+      "Bar",
+      "Breakfast included",
+      "Spa"
+    ],
+    "location": "Mexico City, Mexico",
+    "imageUrl": "https://images.pexels.com/photos/157145/pexels-photo-157145.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "8",
+    "name": "Silver Retreat",
+    "priceCAD": 1818,
+    "priceUSD": 1363,
+    "rating": 3.9,
+    "description": "Silver Retreat is located in the heart of Buenos Aires, Argentina, within walking distance to the historic district and airport. The hotel offers Free parking, Pet-friendly, and Bar. Each room features refrigerator and cable TV, and free complimentary breakfast is provided. Nearby attractions include historic sites, parks, and museums.",
+    "amenities": [
+      "Indoor pool",
+      "Free parking",
+      "Restaurant",
+      "Breakfast included"
+    ],
+    "location": "Buenos Aires, Argentina",
+    "imageUrl": "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "9",
+    "name": "Grand Suites",
+    "priceCAD": 1469,
+    "priceUSD": 1101,
+    "rating": 3.9,
+    "description": "Grand Suites is located in the heart of Tokyo, Japan, within walking distance to the business district and train station. The hotel offers Indoor pool, Restaurant, and Bar. Each room features cable TV and refrigerator, and free on-site parking is provided. Nearby attractions include theaters, shopping malls, and parks.",
+    "amenities": [
+      "24-hour front desk",
+      "Airport shuttle",
+      "Non-smoking rooms"
+    ],
+    "location": "Tokyo, Japan",
+    "imageUrl": "https://images.pexels.com/photos/219997/pexels-photo-219997.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "10",
+    "name": "Emerald Lodge",
+    "priceCAD": 980,
     "priceUSD": 735,
     "rating": 4.4,
-    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
+    "description": "Emerald Lodge is located in the heart of Copenhagen, Denmark, within walking distance to the airport and business district. The hotel offers 24-hour front desk, Airport shuttle, and Non-smoking rooms. Each room features balcony and cable TV, and free on-site parking is provided. Nearby attractions include nightlife districts, restaurants, and theaters.",
     "amenities": [
-      "Non-smoking rooms",
+      "Breakfast included",
       "24-hour front desk",
-      "Indoor pool",
-      "Bar",
+      "Room service",
+      "Airport shuttle",
       "Free parking",
-      "Breakfast included",
-      "Free Wi-Fi"
+      "Bar"
     ],
-    "location": "Halifax, NS"
+    "location": "Copenhagen, Denmark",
+    "imageUrl": "https://images.pexels.com/photos/358696/pexels-photo-358696.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
-    "id": "b46c10cc-8b8b-4a0d-bc6a-5072892e6047",
-    "name": "Seaside Villa",
-    "priceCAD": 839,
-    "priceUSD": 621,
-    "rating": 3.4,
-    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
-    "amenities": [
-      "Breakfast included",
-      "24-hour front desk",
-      "Free parking",
-      "Non-smoking rooms",
-      "Free Wi-Fi"
-    ],
-    "location": "Edmonton, AB"
-  },
-  {
-    "id": "85a91749-51c8-43e9-a2ea-ae3f6ae29a59",
-    "name": "Seaside Inn",
-    "priceCAD": 1824,
-    "priceUSD": 1350,
-    "rating": 3.8,
-    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
-    "amenities": [
-      "Indoor pool",
-      "Free Wi-Fi",
-      "24-hour front desk",
-      "Non-smoking rooms",
-      "Breakfast included",
-      "Free parking"
-    ],
-    "location": "Halifax, NS"
-  },
-  {
-    "id": "e0c452a4-be34-4043-aaf9-20d53c81969e",
-    "name": "Royal Place",
-    "priceCAD": 1402,
-    "priceUSD": 1037,
+    "id": "11",
+    "name": "Harbor Inn",
+    "priceCAD": 1665,
+    "priceUSD": 1248,
     "rating": 2.6,
-    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
+    "description": "Harbor Inn is located in the heart of Amsterdam, Netherlands, within walking distance to the main shopping district and train station. The hotel offers Gym, Restaurant, and Laundry service. Each room features mini-bar and cable TV, and free 24-hour room service is provided. Nearby attractions include nightlife districts, shopping malls, and museums.",
     "amenities": [
-      "Breakfast included",
-      "Indoor pool",
-      "Non-smoking rooms",
-      "Free Wi-Fi",
-      "Bar",
+      "Airport shuttle",
+      "Free parking",
       "24-hour front desk",
-      "Free parking"
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Indoor pool"
     ],
-    "location": "Edmonton, AB"
+    "location": "Amsterdam, Netherlands",
+    "imageUrl": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
-    "id": "60a27cab-43c2-4743-b37b-9e6ec60c0910",
-    "name": "Lakeside Lodge",
-    "priceCAD": 1326,
-    "priceUSD": 981,
-    "rating": 2.9,
-    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
+    "id": "12",
+    "name": "Vista Villa",
+    "priceCAD": 1281,
+    "priceUSD": 960,
+    "rating": 3.1,
+    "description": "Vista Villa is located in the heart of Moscow, Russia, within walking distance to the airport and historic district. The hotel offers Pet-friendly, Restaurant, and Gym. Each room features refrigerator and desk, and free complimentary breakfast is provided. Nearby attractions include theaters, beaches, and restaurants.",
     "amenities": [
-      "Free parking",
-      "Non-smoking rooms",
       "Bar",
+      "Laundry service",
+      "Spa",
+      "Indoor pool"
+    ],
+    "location": "Moscow, Russia",
+    "imageUrl": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "13",
+    "name": "Summit Suites",
+    "priceCAD": 1664,
+    "priceUSD": 1248,
+    "rating": 2.7,
+    "description": "Summit Suites is located in the heart of Vienna, Austria, within walking distance to the airport and business district. The hotel offers Gym, Airport shuttle, and Pet-friendly. Each room features refrigerator and mini-bar, and free complimentary breakfast is provided. Nearby attractions include theaters, shopping malls, and museums.",
+    "amenities": [
+      "Indoor pool",
+      "Bar",
+      "24-hour front desk",
+      "Breakfast included",
+      "Room service"
+    ],
+    "location": "Vienna, Austria",
+    "imageUrl": "https://images.pexels.com/photos/2698519/pexels-photo-2698519.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "14",
+    "name": "Cozy Retreat",
+    "priceCAD": 1241,
+    "priceUSD": 930,
+    "rating": 4.8,
+    "description": "Cozy Retreat is located in the heart of Budapest, Hungary, within walking distance to the city center and business district. The hotel offers Airport shuttle, Free Wi-Fi, and Room service. Each room features balcony and refrigerator, and free complimentary breakfast is provided. Nearby attractions include theaters, museums, and beaches.",
+    "amenities": [
+      "Gym",
+      "Indoor pool",
+      "Airport shuttle",
+      "Laundry service",
+      "Spa"
+    ],
+    "location": "Budapest, Hungary",
+    "imageUrl": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "15",
+    "name": "Modern Hotel",
+    "priceCAD": 486,
+    "priceUSD": 364,
+    "rating": 2.9,
+    "description": "Modern Hotel is located in the heart of Rome, Italy, within walking distance to the airport and main shopping district. The hotel offers Free parking, Airport shuttle, and Bar. Each room features desk and refrigerator, and free 24-hour room service is provided. Nearby attractions include museums, restaurants, and shopping malls.",
+    "amenities": [
+      "Non-smoking rooms",
+      "Breakfast included",
+      "24-hour front desk",
+      "Free Wi-Fi"
+    ],
+    "location": "Rome, Italy",
+    "imageUrl": "https://images.pexels.com/photos/1454803/pexels-photo-1454803.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "16",
+    "name": "Sunset Resort",
+    "priceCAD": 1288,
+    "priceUSD": 966,
+    "rating": 4.0,
+    "description": "Sunset Resort is located in the heart of Cairo, Egypt, within walking distance to the main shopping district and city center. The hotel offers Gym, Free parking, and Indoor pool. Each room features refrigerator and cable TV, and free 24-hour room service is provided. Nearby attractions include restaurants, nightlife districts, and shopping malls.",
+    "amenities": [
+      "Airport shuttle",
+      "Non-smoking rooms",
+      "Indoor pool"
+    ],
+    "location": "Cairo, Egypt",
+    "imageUrl": "https://images.pexels.com/photos/157145/pexels-photo-157145.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "17",
+    "name": "Royal Resort",
+    "priceCAD": 357,
+    "priceUSD": 267,
+    "rating": 3.3,
+    "description": "Royal Resort is located in the heart of Montreal, QC, Canada, within walking distance to the airport and main shopping district. The hotel offers Airport shuttle, Bar, and Non-smoking rooms. Each room features cable TV and mini-bar, and free 24-hour room service is provided. Nearby attractions include parks, restaurants, and nightlife districts.",
+    "amenities": [
+      "Bar",
+      "Gym",
+      "Room service",
+      "Free Wi-Fi"
+    ],
+    "location": "Montreal, QC, Canada",
+    "imageUrl": "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "18",
+    "name": "Vista Lodge",
+    "priceCAD": 821,
+    "priceUSD": 615,
+    "rating": 3.0,
+    "description": "Vista Lodge is located in the heart of Seoul, South Korea, within walking distance to the business district and main shopping district. The hotel offers Airport shuttle, Free Wi-Fi, and Gym. Each room features refrigerator and mini-bar, and free 24-hour room service is provided. Nearby attractions include historic sites, theaters, and parks.",
+    "amenities": [
+      "Restaurant",
+      "Breakfast included",
+      "Pet-friendly",
+      "Free Wi-Fi"
+    ],
+    "location": "Seoul, South Korea",
+    "imageUrl": "https://images.pexels.com/photos/219997/pexels-photo-219997.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "19",
+    "name": "Vista Resort",
+    "priceCAD": 1839,
+    "priceUSD": 1379,
+    "rating": 2.2,
+    "description": "Vista Resort is located in the heart of Dubai, UAE, within walking distance to the historic district and business district. The hotel offers Bar, Indoor pool, and Laundry service. Each room features balcony and refrigerator, and free shuttle service is provided. Nearby attractions include historic sites, theaters, and parks.",
+    "amenities": [
+      "Gym",
+      "Indoor pool",
+      "Free parking",
+      "Room service",
+      "Laundry service",
+      "Restaurant"
+    ],
+    "location": "Dubai, UAE",
+    "imageUrl": "https://images.pexels.com/photos/358696/pexels-photo-358696.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "20",
+    "name": "Urban Hotel",
+    "priceCAD": 1332,
+    "priceUSD": 999,
+    "rating": 4.4,
+    "description": "Urban Hotel is located in the heart of Prague, Czech Republic, within walking distance to the city center and business district. The hotel offers Airport shuttle, Non-smoking rooms, and Pet-friendly. Each room features desk and mini-bar, and free complimentary breakfast is provided. Nearby attractions include museums, historic sites, and restaurants.",
+    "amenities": [
+      "Indoor pool",
+      "Restaurant",
+      "Laundry service",
+      "24-hour front desk",
+      "Airport shuttle",
+      "Free Wi-Fi"
+    ],
+    "location": "Prague, Czech Republic",
+    "imageUrl": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "21",
+    "name": "Heritage Inn",
+    "priceCAD": 1856,
+    "priceUSD": 1392,
+    "rating": 2.9,
+    "description": "Heritage Inn is located in the heart of Hong Kong, China, within walking distance to the business district and train station. The hotel offers Indoor pool, Gym, and Airport shuttle. Each room features cable TV and refrigerator, and free on-site parking is provided. Nearby attractions include beaches, shopping malls, and theaters.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Breakfast included",
+      "Room service",
       "24-hour front desk"
     ],
-    "location": "Victoria, BC"
+    "location": "Hong Kong, China",
+    "imageUrl": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
-    "id": "249479ee-635e-4110-b0ba-d850495f1c41",
-    "name": "Seaside Hotel",
-    "priceCAD": 1875,
-    "priceUSD": 1388,
-    "rating": 4.1,
-    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
+    "id": "22",
+    "name": "Grand Suites",
+    "priceCAD": 418,
+    "priceUSD": 313,
+    "rating": 4.0,
+    "description": "Grand Suites is located in the heart of Singapore, within walking distance to the historic district and train station. The hotel offers Air conditioning, Room service, and Gym. Each room features cable TV and balcony, and free on-site parking is provided. Nearby attractions include nightlife districts, theaters, and restaurants.",
     "amenities": [
-      "Non-smoking rooms",
-      "Free Wi-Fi",
-      "24-hour front desk",
-      "Breakfast included",
+      "Airport shuttle",
+      "Room service",
+      "Indoor pool",
+      "Air conditioning"
+    ],
+    "location": "Singapore",
+    "imageUrl": "https://images.pexels.com/photos/2698519/pexels-photo-2698519.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "23",
+    "name": "Prestige Resort",
+    "priceCAD": 1675,
+    "priceUSD": 1256,
+    "rating": 3.1,
+    "description": "Prestige Resort is located in the heart of Manchester, UK, within walking distance to the airport and city center. The hotel offers Indoor pool, Laundry service, and Airport shuttle. Each room features desk and mini-bar, and free complimentary breakfast is provided. Nearby attractions include beaches, museums, and parks.",
+    "amenities": [
+      "Spa",
+      "Pet-friendly",
       "Free parking"
     ],
-    "location": "Halifax, NS"
+    "location": "Manchester, UK",
+    "imageUrl": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
-    "id": "6c5411dd-6245-4548-b78e-c5bdbe5c9dbe",
-    "name": "Lakeside Haven",
-    "priceCAD": 646,
-    "priceUSD": 478,
-    "rating": 3.3,
-    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
+    "id": "24",
+    "name": "Garden Resort",
+    "priceCAD": 1361,
+    "priceUSD": 1020,
+    "rating": 2.6,
+    "description": "Garden Resort is located in the heart of Vienna, Austria, within walking distance to the historic district and main shopping district. The hotel offers Breakfast included, Restaurant, and Bar. Each room features cable TV and desk, and free shuttle service is provided. Nearby attractions include parks, restaurants, and theaters.",
     "amenities": [
+      "Free Wi-Fi",
+      "Room service",
       "Indoor pool",
-      "24-hour front desk",
-      "Bar",
-      "Breakfast included"
+      "Gym",
+      "Spa",
+      "Airport shuttle"
     ],
-    "location": "Vancouver, BC"
+    "location": "Vienna, Austria",
+    "imageUrl": "https://images.pexels.com/photos/1454803/pexels-photo-1454803.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
-    "id": "30aa7743-d511-4e1a-8b42-646d9cc40ad6",
-    "name": "Urban Villa",
-    "priceCAD": 362,
-    "priceUSD": 268,
-    "rating": 3.4,
-    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
-    "amenities": [
-      "Non-smoking rooms",
-      "Breakfast included",
-      "24-hour front desk",
-      "Bar",
-      "Indoor pool",
-      "Free Wi-Fi",
-      "Free parking"
-    ],
-    "location": "Halifax, NS"
-  },
-  {
-    "id": "d2b266f6-4c49-46dc-9db9-a546f2eb5cc1",
-    "name": "Royal Stay",
-    "priceCAD": 1024,
-    "priceUSD": 758,
-    "rating": 2.7,
-    "description": "Charming interiors with vintage decor, garden access, and pet-friendly rooms. Great for families.",
-    "amenities": [
-      "Bar",
-      "Non-smoking rooms",
-      "Breakfast included",
-      "24-hour front desk",
-      "Free Wi-Fi",
-      "Indoor pool",
-      "Free parking"
-    ],
-    "location": "Quebec City, QC"
-  },
-  {
-    "id": "fdf76e44-b0fc-4857-a365-86eb569051d4",
-    "name": "Mountain Stay",
-    "priceCAD": 575,
-    "priceUSD": 426,
-    "rating": 2.1,
-    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
-    "amenities": [
-      "Bar",
-      "Free Wi-Fi",
-      "Non-smoking rooms",
-      "Breakfast included"
-    ],
-    "location": "Winnipeg, MB"
-  },
-  {
-    "id": "8ebf251a-3b21-4a55-9f49-d8e875449580",
-    "name": "Mountain Lodge",
-    "priceCAD": 943,
-    "priceUSD": 698,
-    "rating": 3.3,
-    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
-    "amenities": [
-      "Non-smoking rooms",
-      "Indoor pool",
-      "Breakfast included",
-      "24-hour front desk",
-      "Free parking",
-      "Free Wi-Fi",
-      "Bar"
-    ],
-    "location": "Montreal, QC"
-  },
-  {
-    "id": "a07ceb68-3049-46de-8e91-c09cc0487509",
-    "name": "Cozy Stay",
-    "priceCAD": 1282,
-    "priceUSD": 949,
-    "rating": 4.7,
-    "description": "Conveniently located near shopping and dining districts, with luxury spa services and valet parking.",
-    "amenities": [
-      "Indoor pool",
-      "Bar",
-      "Breakfast included",
-      "Non-smoking rooms"
-    ],
-    "location": "Montreal, QC"
-  },
-  {
-    "id": "078a5c98-ccb3-44d8-b956-7bb2f3cfc268",
-    "name": "Lakeside Place",
-    "priceCAD": 1880,
-    "priceUSD": 1391,
-    "rating": 4.7,
-    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
-    "amenities": [
-      "Indoor pool",
-      "Free Wi-Fi",
-      "Free parking",
-      "Bar",
-      "Breakfast included"
-    ],
-    "location": "Ottawa, ON"
-  },
-  {
-    "id": "4c729e70-f07c-4dba-8f10-d673c73ff848",
-    "name": "Elegant Place",
-    "priceCAD": 1803,
-    "priceUSD": 1334,
-    "rating": 4.7,
-    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
-    "amenities": [
-      "Free parking",
-      "Indoor pool",
-      "Breakfast included",
-      "24-hour front desk",
-      "Free Wi-Fi",
-      "Non-smoking rooms",
-      "Bar"
-    ],
-    "location": "Calgary, AB"
-  },
-  {
-    "id": "634c0b36-c922-4d91-9b00-ce34f68cb230",
-    "name": "Sunny Villa",
-    "priceCAD": 317,
-    "priceUSD": 235,
-    "rating": 4.2,
-    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
-    "amenities": [
-      "Free Wi-Fi",
-      "24-hour front desk",
-      "Indoor pool",
-      "Breakfast included",
-      "Free parking",
-      "Bar",
-      "Non-smoking rooms"
-    ],
-    "location": "Quebec City, QC"
-  },
-  {
-    "id": "33b8da40-6260-4bcf-bedf-a66856553cab",
-    "name": "Lakeside Haven",
-    "priceCAD": 508,
-    "priceUSD": 376,
-    "rating": 3.6,
-    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
-    "amenities": [
-      "Free Wi-Fi",
-      "Free parking",
-      "Breakfast included",
-      "Non-smoking rooms"
-    ],
-    "location": "Winnipeg, MB"
-  },
-  {
-    "id": "f9cdaf02-aa27-4b11-a9a4-6346d9c92975",
-    "name": "Lakeside Stay",
-    "priceCAD": 268,
-    "priceUSD": 198,
-    "rating": 2.3,
-    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
-    "amenities": [
-      "Indoor pool",
-      "Non-smoking rooms",
-      "Bar",
-      "Free parking",
-      "24-hour front desk",
-      "Free Wi-Fi",
-      "Breakfast included"
-    ],
-    "location": "Ottawa, ON"
-  },
-  {
-    "id": "a12ebf22-4c19-461d-a776-cad4bb738891",
-    "name": "Royal Stay",
-    "priceCAD": 1032,
-    "priceUSD": 764,
-    "rating": 4.6,
-    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
-    "amenities": [
-      "Free Wi-Fi",
-      "Non-smoking rooms",
-      "Indoor pool",
-      "Breakfast included",
-      "Free parking",
-      "Bar"
-    ],
-    "location": "Quebec City, QC"
-  },
-  {
-    "id": "7962bead-9e6c-4f4c-9106-01f693e34022",
-    "name": "Peaceful Villa",
-    "priceCAD": 480,
-    "priceUSD": 355,
-    "rating": 3.6,
-    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
-    "amenities": [
-      "24-hour front desk",
-      "Bar",
-      "Non-smoking rooms",
-      "Breakfast included"
-    ],
-    "location": "Ottawa, ON"
-  },
-  {
-    "id": "82ff3317-6963-4084-ab35-ab8324046636",
-    "name": "Mountain Place",
-    "priceCAD": 405,
-    "priceUSD": 300,
-    "rating": 4.3,
-    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
-    "amenities": [
-      "24-hour front desk",
-      "Free Wi-Fi",
-      "Non-smoking rooms",
-      "Indoor pool",
-      "Bar",
-      "Free parking",
-      "Breakfast included"
-    ],
-    "location": "Winnipeg, MB"
-  },
-  {
-    "id": "94d5bf98-162f-4916-a9f3-73767f5b64d3",
-    "name": "Cozy Inn",
-    "priceCAD": 366,
-    "priceUSD": 271,
-    "rating": 3.3,
-    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
-    "amenities": [
-      "24-hour front desk",
-      "Breakfast included",
-      "Non-smoking rooms",
-      "Free parking",
-      "Indoor pool"
-    ],
-    "location": "Winnipeg, MB"
-  },
-  {
-    "id": "a2bcf04a-0e0a-4892-8400-b60f142de28d",
-    "name": "Sunny Suites",
-    "priceCAD": 88,
-    "priceUSD": 65,
-    "rating": 4.4,
-    "description": "Charming interiors with vintage decor, garden access, and pet-friendly rooms. Great for families.",
-    "amenities": [
-      "Free Wi-Fi",
-      "Free parking",
-      "Bar",
-      "Indoor pool",
-      "Breakfast included",
-      "Non-smoking rooms"
-    ],
-    "location": "Halifax, NS"
-  },
-  {
-    "id": "1ef5cd6a-722f-4ebb-adcf-932eadd2205d",
-    "name": "Urban Hotel",
-    "priceCAD": 136,
-    "priceUSD": 101,
-    "rating": 2.8,
-    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
-    "amenities": [
-      "Bar",
-      "24-hour front desk",
-      "Non-smoking rooms",
-      "Indoor pool",
-      "Breakfast included"
-    ],
-    "location": "Victoria, BC"
-  },
-  {
-    "id": "fb51c4dd-ea87-479c-b01d-98d98193fdba",
-    "name": "Elegant Villa",
-    "priceCAD": 1882,
-    "priceUSD": 1393,
-    "rating": 3.8,
-    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
-    "amenities": [
-      "Free Wi-Fi",
-      "Indoor pool",
-      "Free parking",
-      "Breakfast included"
-    ],
-    "location": "Edmonton, AB"
-  },
-  {
-    "id": "723226ce-b681-4048-9e43-b97900964308",
-    "name": "Cozy Place",
-    "priceCAD": 1636,
-    "priceUSD": 1211,
-    "rating": 2.5,
-    "description": "Modern suites with kitchenettes, laundry facilities, and rooftop terrace views of the city.",
-    "amenities": [
-      "Free parking",
-      "Bar",
-      "24-hour front desk",
-      "Non-smoking rooms",
-      "Indoor pool",
-      "Breakfast included"
-    ],
-    "location": "Ottawa, ON"
-  },
-  {
-    "id": "cf54afa7-1c01-4c2e-a9e7-a2964dc72267",
-    "name": "Modern Haven",
-    "priceCAD": 1073,
-    "priceUSD": 794,
-    "rating": 4.4,
-    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
-    "amenities": [
-      "Breakfast included",
-      "Bar",
-      "Non-smoking rooms",
-      "Free parking",
-      "Indoor pool"
-    ],
-    "location": "Calgary, AB"
-  },
-  {
-    "id": "6f710cc5-a42f-4c72-9dfc-8cb2eca062d4",
-    "name": "Cozy Hotel",
-    "priceCAD": 792,
-    "priceUSD": 586,
-    "rating": 2.4,
-    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
-    "amenities": [
-      "Free Wi-Fi",
-      "24-hour front desk",
-      "Free parking",
-      "Non-smoking rooms",
-      "Bar"
-    ],
-    "location": "Vancouver, BC"
-  },
-  {
-    "id": "2659b506-52d9-429a-a59f-6b3466f61f8b",
-    "name": "Lakeside Place",
-    "priceCAD": 831,
-    "priceUSD": 615,
-    "rating": 3.2,
-    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
-    "amenities": [
-      "Indoor pool",
-      "Non-smoking rooms",
-      "Breakfast included",
-      "24-hour front desk",
-      "Free parking",
-      "Free Wi-Fi"
-    ],
-    "location": "Halifax, NS"
-  },
-  {
-    "id": "3a93d360-d4ea-48f4-b3a3-6949e4025b26",
-    "name": "Modern Retreat",
-    "priceCAD": 1081,
-    "priceUSD": 800,
-    "rating": 2.9,
-    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
-    "amenities": [
-      "Free Wi-Fi",
-      "Indoor pool",
-      "24-hour front desk",
-      "Non-smoking rooms"
-    ],
-    "location": "Quebec City, QC"
-  },
-  {
-    "id": "dd7ef9ed-8bef-4192-bd64-ef728076d88c",
-    "name": "Sunny Inn",
-    "priceCAD": 1484,
-    "priceUSD": 1098,
-    "rating": 3.7,
-    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
-    "amenities": [
-      "Free parking",
-      "Free Wi-Fi",
-      "24-hour front desk",
-      "Breakfast included",
-      "Bar",
-      "Indoor pool"
-    ],
-    "location": "Ottawa, ON"
-  },
-  {
-    "id": "35dff913-0915-42bd-9d9a-8f5ca14cb12b",
-    "name": "Seaside Haven",
-    "priceCAD": 1537,
-    "priceUSD": 1137,
-    "rating": 3.7,
-    "description": "Charming interiors with vintage decor, garden access, and pet-friendly rooms. Great for families.",
-    "amenities": [
-      "24-hour front desk",
-      "Free parking",
-      "Indoor pool",
-      "Non-smoking rooms",
-      "Breakfast included",
-      "Free Wi-Fi",
-      "Bar"
-    ],
-    "location": "Quebec City, QC"
-  },
-  {
-    "id": "09584910-f4fe-4521-887e-34eacdfcc235",
-    "name": "Cozy Haven",
-    "priceCAD": 1985,
-    "priceUSD": 1469,
-    "rating": 3.9,
-    "description": "Ideal for business and leisure travelers, featuring conference rooms, gym facilities, and complimentary breakfast.",
-    "amenities": [
-      "24-hour front desk",
-      "Free parking",
-      "Breakfast included",
-      "Non-smoking rooms"
-    ],
-    "location": "Halifax, NS"
-  },
-  {
-    "id": "cfc1f2e9-0380-4129-95fa-651b9456c10a",
-    "name": "Urban Haven",
-    "priceCAD": 1467,
-    "priceUSD": 1086,
-    "rating": 4.9,
-    "description": "Nestled near the mountains, this lodge offers ski-in/ski-out access, a cozy fireplace, and scenic views.",
-    "amenities": [
-      "Free Wi-Fi",
-      "Bar",
-      "24-hour front desk",
-      "Indoor pool",
-      "Free parking"
-    ],
-    "location": "Ottawa, ON"
-  },
-  {
-    "id": "3ca76730-0e8b-4319-9d61-4af2a3dedc0a",
-    "name": "Seaside Haven",
-    "priceCAD": 1161,
-    "priceUSD": 859,
-    "rating": 4.4,
-    "description": "Guests can enjoy ocean views, private balconies, and a heated outdoor pool. Perfect for a relaxing getaway.",
-    "amenities": [
-      "Indoor pool",
-      "24-hour front desk",
-      "Free Wi-Fi",
-      "Breakfast included",
-      "Free parking"
-    ],
-    "location": "Ottawa, ON"
-  },
-  {
-    "id": "29ecc043-ef66-4923-a344-3f277e4e2bc0",
-    "name": "Peaceful Villa",
-    "priceCAD": 1828,
-    "priceUSD": 1353,
-    "rating": 4.1,
-    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
-    "amenities": [
-      "Non-smoking rooms",
-      "Free Wi-Fi",
-      "Free parking",
-      "24-hour front desk",
-      "Breakfast included",
-      "Bar",
-      "Indoor pool"
-    ],
-    "location": "Edmonton, AB"
-  },
-  {
-    "id": "c44dde18-7a13-4078-a55c-e9f6479af2b2",
-    "name": "Royal Place",
-    "priceCAD": 631,
-    "priceUSD": 467,
-    "rating": 5.0,
-    "description": "Quiet and serene, this hotel offers lakeside walking trails, canoe rentals, and spacious rooms.",
-    "amenities": [
-      "24-hour front desk",
-      "Free Wi-Fi",
-      "Bar",
-      "Free parking",
-      "Non-smoking rooms"
-    ],
-    "location": "Ottawa, ON"
-  },
-  {
-    "id": "45bd6ab9-b3e9-459d-a36d-8016269df79b",
-    "name": "Elegant Suites",
-    "priceCAD": 776,
-    "priceUSD": 574,
-    "rating": 2.2,
-    "description": "Rustic charm meets modern comfort in this countryside inn. Features include farm-to-table dining and outdoor fire pits.",
-    "amenities": [
-      "Bar",
-      "Free parking",
-      "Breakfast included",
-      "Non-smoking rooms",
-      "Free Wi-Fi",
-      "24-hour front desk",
-      "Indoor pool"
-    ],
-    "location": "Toronto, ON"
-  },
-  {
-    "id": "4536e63a-765f-4f4f-a2a4-772be819c56a",
-    "name": "Cozy Place",
-    "priceCAD": 802,
-    "priceUSD": 593,
-    "rating": 4.7,
-    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
-    "amenities": [
-      "Bar",
-      "24-hour front desk",
-      "Indoor pool",
-      "Free Wi-Fi",
-      "Breakfast included"
-    ],
-    "location": "Halifax, NS"
-  },
-  {
-    "id": "a10a57bd-9533-4e94-8864-e69b6210656f",
-    "name": "Royal Hotel",
-    "priceCAD": 1325,
+    "id": "25",
+    "name": "Summit Hotel",
+    "priceCAD": 1307,
     "priceUSD": 980,
-    "rating": 3.6,
-    "description": "Bright and airy rooms, daily housekeeping, and a 24-hour concierge. A popular downtown choice.",
+    "rating": 2.1,
+    "description": "Summit Hotel is located in the heart of Prague, Czech Republic, within walking distance to the airport and historic district. The hotel offers 24-hour front desk, Gym, and Air conditioning. Each room features in-room coffee maker and refrigerator, and free on-site parking is provided. Nearby attractions include parks, museums, and theaters.",
+    "amenities": [
+      "Room service",
+      "Breakfast included",
+      "Indoor pool",
+      "Spa"
+    ],
+    "location": "Prague, Czech Republic",
+    "imageUrl": "https://images.pexels.com/photos/157145/pexels-photo-157145.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "26",
+    "name": "Emerald Retreat",
+    "priceCAD": 1467,
+    "priceUSD": 1100,
+    "rating": 4.3,
+    "description": "Emerald Retreat is located in the heart of Athens, Greece, within walking distance to the main shopping district and train station. The hotel offers Air conditioning, Restaurant, and Gym. Each room features refrigerator and balcony, and free complimentary breakfast is provided. Nearby attractions include historic sites, nightlife districts, and museums.",
     "amenities": [
       "Non-smoking rooms",
       "Free Wi-Fi",
-      "Indoor pool",
-      "Breakfast included"
+      "Air conditioning",
+      "Gym",
+      "Airport shuttle"
     ],
-    "location": "Calgary, AB"
+    "location": "Athens, Greece",
+    "imageUrl": "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600"
   },
   {
-    "id": "f86b9c30-e284-486e-9ec5-3b2cd8d165e6",
-    "name": "Modern Retreat",
-    "priceCAD": 836,
-    "priceUSD": 619,
-    "rating": 3.5,
-    "description": "Located just minutes from downtown, this property features free WiFi, modern amenities, and easy access to public transit.",
+    "id": "27",
+    "name": "Azure Lodge",
+    "priceCAD": 1653,
+    "priceUSD": 1239,
+    "rating": 3.0,
+    "description": "Azure Lodge is located in the heart of Moscow, Russia, within walking distance to the historic district and airport. The hotel offers Non-smoking rooms, Indoor pool, and Air conditioning. Each room features balcony and desk, and free shuttle service is provided. Nearby attractions include shopping malls, theaters, and beaches.",
     "amenities": [
+      "Free parking",
+      "Room service",
+      "Bar",
+      "Air conditioning"
+    ],
+    "location": "Moscow, Russia",
+    "imageUrl": "https://images.pexels.com/photos/219997/pexels-photo-219997.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "28",
+    "name": "Park Suites",
+    "priceCAD": 784,
+    "priceUSD": 588,
+    "rating": 4.3,
+    "description": "Park Suites is located in the heart of Warsaw, Poland, within walking distance to the historic district and train station. The hotel offers Pet-friendly, Non-smoking rooms, and Bar. Each room features desk and mini-bar, and free 24-hour room service is provided. Nearby attractions include nightlife districts, historic sites, and museums.",
+    "amenities": [
+      "Indoor pool",
+      "Free parking",
+      "Non-smoking rooms",
+      "Pet-friendly"
+    ],
+    "location": "Warsaw, Poland",
+    "imageUrl": "https://images.pexels.com/photos/358696/pexels-photo-358696.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "29",
+    "name": "Serenity Lodge",
+    "priceCAD": 1245,
+    "priceUSD": 933,
+    "rating": 2.4,
+    "description": "Serenity Lodge is located in the heart of Montreal, QC, Canada, within walking distance to the business district and historic district. The hotel offers Gym, Indoor pool, and Spa. Each room features balcony and desk, and free on-site parking is provided. Nearby attractions include parks, theaters, and museums.",
+    "amenities": [
+      "Room service",
+      "Air conditioning",
+      "Restaurant",
+      "Airport shuttle"
+    ],
+    "location": "Montreal, QC, Canada",
+    "imageUrl": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "30",
+    "name": "Crystal Hotel",
+    "priceCAD": 1993,
+    "priceUSD": 1494,
+    "rating": 4.7,
+    "description": "Crystal Hotel is located in the heart of Cape Town, South Africa, within walking distance to the train station and historic district. The hotel offers Air conditioning, Free parking, and Indoor pool. Each room features desk and balcony, and free shuttle service is provided. Nearby attractions include shopping malls, theaters, and nightlife districts.",
+    "amenities": [
+      "Gym",
+      "Non-smoking rooms",
+      "Air conditioning",
+      "Restaurant",
+      "Free Wi-Fi"
+    ],
+    "location": "Cape Town, South Africa",
+    "imageUrl": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "31",
+    "name": "Regal Lodge",
+    "priceCAD": 1302,
+    "priceUSD": 976,
+    "rating": 3.0,
+    "description": "Regal Lodge is located in the heart of Moscow, Russia, within walking distance to the main shopping district and city center. The hotel offers Room service, Restaurant, and Free parking. Each room features desk and in-room coffee maker, and free complimentary breakfast is provided. Nearby attractions include parks, museums, and beaches.",
+    "amenities": [
+      "Gym",
+      "Room service",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Airport shuttle",
+      "Indoor pool"
+    ],
+    "location": "Moscow, Russia",
+    "imageUrl": "https://images.pexels.com/photos/2698519/pexels-photo-2698519.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "32",
+    "name": "Silver Retreat",
+    "priceCAD": 807,
+    "priceUSD": 605,
+    "rating": 3.7,
+    "description": "Silver Retreat is located in the heart of Warsaw, Poland, within walking distance to the historic district and airport. The hotel offers Bar, Indoor pool, and Gym. Each room features cable TV and desk, and free complimentary breakfast is provided. Nearby attractions include shopping malls, parks, and nightlife districts.",
+    "amenities": [
+      "Room service",
+      "24-hour front desk",
+      "Gym",
+      "Spa"
+    ],
+    "location": "Warsaw, Poland",
+    "imageUrl": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "33",
+    "name": "Crystal Hotel",
+    "priceCAD": 1437,
+    "priceUSD": 1077,
+    "rating": 3.6,
+    "description": "Crystal Hotel is located in the heart of Rio de Janeiro, Brazil, within walking distance to the train station and city center. The hotel offers Free Wi-Fi, Gym, and Bar. Each room features cable TV and in-room coffee maker, and free 24-hour room service is provided. Nearby attractions include historic sites, restaurants, and beaches.",
+    "amenities": [
+      "Room service",
+      "Airport shuttle",
+      "Pet-friendly",
+      "Free Wi-Fi"
+    ],
+    "location": "Rio de Janeiro, Brazil",
+    "imageUrl": "https://images.pexels.com/photos/1454803/pexels-photo-1454803.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "34",
+    "name": "Grand Hotel",
+    "priceCAD": 433,
+    "priceUSD": 324,
+    "rating": 2.3,
+    "description": "Grand Hotel is located in the heart of Berlin, Germany, within walking distance to the airport and main shopping district. The hotel offers Free parking, Restaurant, and Pet-friendly. Each room features in-room coffee maker and cable TV, and free on-site parking is provided. Nearby attractions include shopping malls, nightlife districts, and restaurants.",
+    "amenities": [
+      "Pet-friendly",
+      "Free Wi-Fi",
+      "Restaurant"
+    ],
+    "location": "Berlin, Germany",
+    "imageUrl": "https://images.pexels.com/photos/157145/pexels-photo-157145.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "35",
+    "name": "Majestic Resort",
+    "priceCAD": 723,
+    "priceUSD": 542,
+    "rating": 3.4,
+    "description": "Majestic Resort is located in the heart of Nairobi, Kenya, within walking distance to the historic district and business district. The hotel offers Restaurant, Free parking, and 24-hour front desk. Each room features mini-bar and refrigerator, and free on-site parking is provided. Nearby attractions include restaurants, museums, and historic sites.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Indoor pool",
+      "Bar"
+    ],
+    "location": "Nairobi, Kenya",
+    "imageUrl": "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "36",
+    "name": "Elegant Retreat",
+    "priceCAD": 1512,
+    "priceUSD": 1134,
+    "rating": 2.1,
+    "description": "Elegant Retreat is located in the heart of Vancouver, BC, Canada, within walking distance to the city center and train station. The hotel offers Bar, Air conditioning, and 24-hour front desk. Each room features cable TV and mini-bar, and free on-site parking is provided. Nearby attractions include historic sites, restaurants, and beaches.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Room service",
+      "Air conditioning",
+      "Bar",
+      "Indoor pool"
+    ],
+    "location": "Vancouver, BC, Canada",
+    "imageUrl": "https://images.pexels.com/photos/219997/pexels-photo-219997.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "37",
+    "name": "Prestige Resort",
+    "priceCAD": 1087,
+    "priceUSD": 815,
+    "rating": 4.3,
+    "description": "Prestige Resort is located in the heart of Paris, France, within walking distance to the train station and historic district. The hotel offers Pet-friendly, Indoor pool, and Breakfast included. Each room features desk and in-room coffee maker, and free 24-hour room service is provided. Nearby attractions include historic sites, theaters, and restaurants.",
+    "amenities": [
+      "Pet-friendly",
+      "Airport shuttle",
+      "Breakfast included",
+      "Air conditioning",
+      "24-hour front desk",
+      "Indoor pool"
+    ],
+    "location": "Paris, France",
+    "imageUrl": "https://images.pexels.com/photos/358696/pexels-photo-358696.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "38",
+    "name": "Silver Lodge",
+    "priceCAD": 1060,
+    "priceUSD": 795,
+    "rating": 4.8,
+    "description": "Silver Lodge is located in the heart of Manchester, UK, within walking distance to the business district and train station. The hotel offers Restaurant, Free Wi-Fi, and 24-hour front desk. Each room features refrigerator and cable TV, and free on-site parking is provided. Nearby attractions include nightlife districts, parks, and restaurants.",
+    "amenities": [
+      "Gym",
+      "Spa",
+      "Indoor pool"
+    ],
+    "location": "Manchester, UK",
+    "imageUrl": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "39",
+    "name": "Harbor Resort",
+    "priceCAD": 1649,
+    "priceUSD": 1236,
+    "rating": 2.4,
+    "description": "Harbor Resort is located in the heart of Rio de Janeiro, Brazil, within walking distance to the train station and city center. The hotel offers Breakfast included, Laundry service, and Airport shuttle. Each room features desk and cable TV, and free 24-hour room service is provided. Nearby attractions include shopping malls, nightlife districts, and parks.",
+    "amenities": [
+      "Pet-friendly",
+      "Free parking",
+      "Spa"
+    ],
+    "location": "Rio de Janeiro, Brazil",
+    "imageUrl": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "40",
+    "name": "Heritage Villa",
+    "priceCAD": 505,
+    "priceUSD": 378,
+    "rating": 2.2,
+    "description": "Heritage Villa is located in the heart of Edinburgh, UK, within walking distance to the train station and main shopping district. The hotel offers Spa, Bar, and Pet-friendly. Each room features in-room coffee maker and desk, and free shuttle service is provided. Nearby attractions include museums, nightlife districts, and restaurants.",
+    "amenities": [
+      "Laundry service",
+      "Breakfast included",
+      "Restaurant",
+      "Room service",
+      "Spa"
+    ],
+    "location": "Edinburgh, UK",
+    "imageUrl": "https://images.pexels.com/photos/2698519/pexels-photo-2698519.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "41",
+    "name": "Palace Lodge",
+    "priceCAD": 541,
+    "priceUSD": 405,
+    "rating": 4.5,
+    "description": "Palace Lodge is located in the heart of Buenos Aires, Argentina, within walking distance to the historic district and business district. The hotel offers Air conditioning, Bar, and Gym. Each room features mini-bar and in-room coffee maker, and free on-site parking is provided. Nearby attractions include nightlife districts, beaches, and museums.",
+    "amenities": [
+      "Laundry service",
+      "24-hour front desk",
+      "Air conditioning",
+      "Non-smoking rooms"
+    ],
+    "location": "Buenos Aires, Argentina",
+    "imageUrl": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "42",
+    "name": "Crystal Hotel",
+    "priceCAD": 1327,
+    "priceUSD": 995,
+    "rating": 2.1,
+    "description": "Crystal Hotel is located in the heart of Copenhagen, Denmark, within walking distance to the historic district and train station. The hotel offers Laundry service, Free parking, and Pet-friendly. Each room features balcony and desk, and free 24-hour room service is provided. Nearby attractions include museums, parks, and shopping malls.",
+    "amenities": [
+      "Airport shuttle",
+      "Pet-friendly",
+      "Room service",
+      "Air conditioning",
+      "Breakfast included",
+      "Non-smoking rooms"
+    ],
+    "location": "Copenhagen, Denmark",
+    "imageUrl": "https://images.pexels.com/photos/1454803/pexels-photo-1454803.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "43",
+    "name": "Paradise Villa",
+    "priceCAD": 1256,
+    "priceUSD": 942,
+    "rating": 3.8,
+    "description": "Paradise Villa is located in the heart of Budapest, Hungary, within walking distance to the main shopping district and business district. The hotel offers Restaurant, Room service, and Pet-friendly. Each room features refrigerator and mini-bar, and free complimentary breakfast is provided. Nearby attractions include historic sites, shopping malls, and restaurants.",
+    "amenities": [
+      "Airport shuttle",
+      "Restaurant",
+      "Non-smoking rooms"
+    ],
+    "location": "Budapest, Hungary",
+    "imageUrl": "https://images.pexels.com/photos/157145/pexels-photo-157145.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "44",
+    "name": "Cozy Hotel",
+    "priceCAD": 1544,
+    "priceUSD": 1158,
+    "rating": 2.6,
+    "description": "Cozy Hotel is located in the heart of Paris, France, within walking distance to the main shopping district and train station. The hotel offers Breakfast included, Gym, and Laundry service. Each room features in-room coffee maker and refrigerator, and free 24-hour room service is provided. Nearby attractions include museums, historic sites, and shopping malls.",
+    "amenities": [
+      "Laundry service",
+      "Breakfast included",
+      "Air conditioning"
+    ],
+    "location": "Paris, France",
+    "imageUrl": "https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "45",
+    "name": "Golden Villa",
+    "priceCAD": 1720,
+    "priceUSD": 1290,
+    "rating": 4.1,
+    "description": "Golden Villa is located in the heart of Amsterdam, Netherlands, within walking distance to the airport and main shopping district. The hotel offers Room service, Gym, and Airport shuttle. Each room features desk and balcony, and free complimentary breakfast is provided. Nearby attractions include beaches, restaurants, and parks.",
+    "amenities": [
+      "Room service",
+      "Airport shuttle",
       "Indoor pool",
       "Bar",
       "Non-smoking rooms",
-      "Free Wi-Fi"
+      "Air conditioning"
     ],
-    "location": "Vancouver, BC"
+    "location": "Amsterdam, Netherlands",
+    "imageUrl": "https://images.pexels.com/photos/219997/pexels-photo-219997.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "46",
+    "name": "Grand Hotel",
+    "priceCAD": 1066,
+    "priceUSD": 799,
+    "rating": 2.7,
+    "description": "Grand Hotel is located in the heart of Singapore, within walking distance to the city center and train station. The hotel offers Room service, Airport shuttle, and Indoor pool. Each room features refrigerator and balcony, and free complimentary breakfast is provided. Nearby attractions include shopping malls, parks, and beaches.",
+    "amenities": [
+      "Airport shuttle",
+      "Restaurant",
+      "Pet-friendly"
+    ],
+    "location": "Singapore",
+    "imageUrl": "https://images.pexels.com/photos/358696/pexels-photo-358696.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "47",
+    "name": "Royal Villa",
+    "priceCAD": 428,
+    "priceUSD": 321,
+    "rating": 3.8,
+    "description": "Royal Villa is located in the heart of Cairo, Egypt, within walking distance to the train station and airport. The hotel offers Gym, Indoor pool, and Breakfast included. Each room features refrigerator and mini-bar, and free on-site parking is provided. Nearby attractions include historic sites, nightlife districts, and shopping malls.",
+    "amenities": [
+      "Restaurant",
+      "Free Wi-Fi",
+      "Air conditioning",
+      "Indoor pool",
+      "Free parking"
+    ],
+    "location": "Cairo, Egypt",
+    "imageUrl": "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "48",
+    "name": "Prestige Villa",
+    "priceCAD": 984,
+    "priceUSD": 738,
+    "rating": 2.0,
+    "description": "Prestige Villa is located in the heart of Sydney, Australia, within walking distance to the main shopping district and business district. The hotel offers Breakfast included, Air conditioning, and Laundry service. Each room features balcony and refrigerator, and free shuttle service is provided. Nearby attractions include beaches, nightlife districts, and theaters.",
+    "amenities": [
+      "Spa",
+      "24-hour front desk",
+      "Non-smoking rooms",
+      "Laundry service",
+      "Room service",
+      "Indoor pool"
+    ],
+    "location": "Sydney, Australia",
+    "imageUrl": "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "49",
+    "name": "Emerald Resort",
+    "priceCAD": 1221,
+    "priceUSD": 915,
+    "rating": 2.8,
+    "description": "Emerald Resort is located in the heart of Vienna, Austria, within walking distance to the business district and airport. The hotel offers Room service, Air conditioning, and Gym. Each room features mini-bar and balcony, and free complimentary breakfast is provided. Nearby attractions include historic sites, shopping malls, and parks.",
+    "amenities": [
+      "Free Wi-Fi",
+      "Free parking",
+      "Spa"
+    ],
+    "location": "Vienna, Austria",
+    "imageUrl": "https://images.pexels.com/photos/2698519/pexels-photo-2698519.jpeg?auto=compress&cs=tinysrgb&w=600"
+  },
+  {
+    "id": "50",
+    "name": "Harbor Inn",
+    "priceCAD": 1144,
+    "priceUSD": 858,
+    "rating": 3.1,
+    "description": "Harbor Inn is located in the heart of Dublin, Ireland, within walking distance to the train station and city center. The hotel offers Restaurant, Pet-friendly, and Spa. Each room features mini-bar and in-room coffee maker, and free complimentary breakfast is provided. Nearby attractions include restaurants, historic sites, and parks.",
+    "amenities": [
+      "Spa",
+      "Non-smoking rooms",
+      "Pet-friendly",
+      "Air conditioning",
+      "Airport shuttle"
+    ],
+    "location": "Dublin, Ireland",
+    "imageUrl": "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=600"
   }
 ]
