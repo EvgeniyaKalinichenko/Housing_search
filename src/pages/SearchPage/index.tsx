@@ -20,7 +20,7 @@ export const SearchPage = () => {
   return (
     <div className={styles.container}>
       <img
-        src="src\assets\Pictures\SeachPage_Image_Copy.png"
+        src="src\assets\Pictures\SeachPage_Image.png"
         alt="SeachPage_Image"
         style={{
           width: "70vw",
@@ -28,16 +28,19 @@ export const SearchPage = () => {
         }}
         className={styles.image}
       />
-      <div className={styles.cardContainer}>
-        {mockProperties.map((property, idx) => (
-          <CardComponent
-            key={property.id}
-            property={{
-              ...property,
-              imageUrl: photos[idx]?.src.medium ?? "/fallback.jpg",
-            }}
-          />
-        ))}
+      <div className={styles.content}>
+        <div className={styles.filters}>dd</div>
+        <div className={styles.cardContainer}>
+          {mockProperties.map((property, idx) => (
+            <CardComponent
+              key={property.id}
+              property={{
+                ...property,
+                imageUrl: photos[idx]?.src.medium ?? "/fallback.jpg",
+              }}
+            />
+          ))}
+        </div>
       </div>
     </div>
   );

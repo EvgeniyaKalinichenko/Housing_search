@@ -1,4 +1,5 @@
 @import "../../styles.scss";
+
 .button {
   background-color: $color-gold;
   font-family: $main-font;
@@ -16,9 +17,6 @@
   &:active {
     background-color: $color-gold-dark;
   }
-  //   &:hover {
-  //     background-color: #E6B230;
-  // }
 }
 
 .smallButton{
@@ -39,5 +37,4 @@
   &:active {
     background-color: $color-gold-dark;
   }
-
 }

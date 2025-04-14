@@ -17,10 +17,11 @@ const CardComponent = ({ property, onClick }: CardComponentProps) => {
       style={{ backgroundImage: `url(${property.imageUrl})` }}
     >
       <div className={styles.content}>
-        <h3>{property.name}</h3>
+        <h3 className={styles.h3}>{property.name}</h3>
         <div className={styles.location}>{property.location}</div>
-        <p>${property.priceUSD} USD </p>
-        <p>${property.priceCAD} CAD</p>
+        <p>$ {property.priceUSD} USD</p>
+        <p>$ {property.priceCAD} CAD</p>
+        <p>Review score {property.rating}</p>
         <Button
           text="See availability"
           small

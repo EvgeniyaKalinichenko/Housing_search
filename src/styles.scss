@@ -11,9 +11,15 @@ $white-text-color: #fcfcfc;
 
 // font families
 $main-font: "main-font";
+$curly-font: "curly-font";
 
 @font-face {
   font-family: "main-font";
   src: url("./src/assets/Fonts/CormorantGaramond-Regular.ttf")
+  
+}
+@font-face {
+  font-family: "curly-font";
+  src: url("./src/assets/Fonts/CormorantGaramond-SemiBoldItalic.ttf")
   
 }

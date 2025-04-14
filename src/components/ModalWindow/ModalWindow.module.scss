@@ -1,0 +1,101 @@
+@import "../../styles.scss";
+
+.modal {
+  background-color: #183a5a;
+  color: #ffffff;
+  padding: 24px 32px;
+  border-radius: 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  max-width: 420px;
+  text-align: center;
+  font-family: "Segoe UI", sans-serif;
+  position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 1001;
+  animation: scaleUp 0.4s ease forwards;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  opacity: 1;
+  pointer-events: all;
+}
+
+.modal h2 {
+  font-size: 26px;
+  margin-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+.modal p {
+  font-size: 16px;
+  opacity: 0.9;
+}
+.modal .button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(10, 20, 30, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  animation: fadeIn 0.4s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes scaleUp {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.content {
+  border-radius: 20px;
+  padding: 20px 20px 54px 20px;
+  width: 400px;
+  height: fit-content;
+  overflow-y: auto;
+  max-height: 85%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  .text {
+    color: white;
+  }
+  
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: $color-gold;
+    border-radius: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: $color-beige;
+  }
+}

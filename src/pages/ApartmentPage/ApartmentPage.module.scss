@@ -1,0 +1,59 @@
+@import "../../styles.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70vw;
+}
+
+.image {
+  filter: brightness(2) contrast(1.1);
+}
+
+.h1{
+  font-family: $main-font;
+  margin-top: -50px;
+  color: white;
+  z-index: 11;
+  margin-bottom: 40px;
+  // margin-left: -400px;
+}
+
+.mainInformation {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  width: 70vw;
+}
+
+.gallery {
+  width: 500px;
+}
+
+.infoBlock{
+  display: flex;
+
+}
+.info{
+  margin-top: 0;
+  display: flex;
+flex-direction: column;
+}
+
+.h4{
+  margin-top: 0;
+}
+
+.amenities {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.description{
+  font-family: $main-font;
+  font-size: 1.2rem;
+
+}
