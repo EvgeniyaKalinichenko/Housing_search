@@ -10,7 +10,13 @@ import { Button } from "../../components/Button";
 import { SlCheck } from "react-icons/sl";
 import ModalWindow from "../../components/ModalWindow";
 
-export const ApartmentPage = () => {
+
+type ApartmentProps = {
+  currency: "USD" | "CAD";
+  setCurrency: React.Dispatch<React.SetStateAction<"USD" | "CAD">>;
+};
+
+export const ApartmentPage = ({currency} : ApartmentProps) => {
   const { id } = useParams<{ id: string }>();
   const [property, setProperty] = useState<Property | null>(null);
   const [photos, setPhotos] = useState<Photo[]>([]);
@@ -64,7 +70,7 @@ export const ApartmentPage = () => {
           <AliceCarousel
             mouseTracking
             items={carouselItems}
-            // autoPlay
+            autoPlay
             infinite
             disableButtonsControls={false}
             disableDotsControls={false}
@@ -74,8 +80,14 @@ export const ApartmentPage = () => {
           <div className={styles.infoBlock}>
           <div>
             <span>{property.location}</span>
-            <p>$ {property.priceUSD} USD</p>
-            <p>$ {property.priceCAD} CAD</p>
+            <p>
+            {new Intl.NumberFormat("en-US", {
+              style: "currency",
+              currency: currency,
+            }).format(
+              currency === "USD" ? property.priceUSD : property.priceCAD
+            )}
+          </p>
             <p>Review score {property.rating}</p>
           </div>
           <div>

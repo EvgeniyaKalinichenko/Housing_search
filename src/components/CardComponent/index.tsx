@@ -5,10 +5,12 @@ import styles from "./CardComponent.module.scss";
 
 export interface CardComponentProps {
   property: Property;
-  onClick?: () => void; 
+  onClick?: () => void;
+  currency: "USD" | "CAD";
+  imageUrl: string;
 }
 
-const CardComponent = ({ property, onClick }: CardComponentProps) => {
+const CardComponent = ({ property, onClick, currency }: CardComponentProps) => {
   const navigate = useNavigate();
 
   return (
@@ -19,8 +21,15 @@ const CardComponent = ({ property, onClick }: CardComponentProps) => {
       <div className={styles.content}>
         <h3 className={styles.h3}>{property.name}</h3>
         <div className={styles.location}>{property.location}</div>
-        <p>$ {property.priceUSD} USD</p>
-        <p>$ {property.priceCAD} CAD</p>
+          <p>
+            {new Intl.NumberFormat("en-US", {
+              style: "currency",
+              currency: currency,
+            }).format(
+              currency === "USD" ? property.priceUSD : property.priceCAD
+            )}
+          </p>
+
         <p>Review score {property.rating}</p>
         <Button
           text="See availability"

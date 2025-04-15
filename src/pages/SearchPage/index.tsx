@@ -6,11 +6,12 @@ import { API_KEY } from "../../APY_KEY";
 import Filters from "../../components/Filters";
 import styles from "./SearchPage.module.scss";
 
-export const SearchPage = () => {
+export const SearchPage = ({ currency }: { currency: "USD" | "CAD" }) => {
   const [photos, setPhotos] = useState<Photo[]>([]);
   const [filters, setFilters] = useState({
     location: "",
     maxPrice: Infinity,
+    minPrice: 0,
     minRating: 0,
     amenities: [] as string[],
   });
@@ -33,18 +34,21 @@ export const SearchPage = () => {
   const filteredProperties = mockProperties.filter((property) => {
     const locationMatch =
       !filters.location || property.location === filters.location;
-  
-    const priceMatch = property.priceUSD <= filters.maxPrice;
-  
+
+    const priceMatch = (() => {
+      const price = currency === "USD" ? property.priceUSD : property.priceCAD;
+      return price >= filters.minPrice && price <= filters.maxPrice;
+    })();
+
     const ratingMatch = property.rating >= filters.minRating;
-  
+
     const amenitiesMatch = filters.amenities.every((a) =>
       property.amenities.includes(a)
     );
-  
+
     return locationMatch && priceMatch && ratingMatch && amenitiesMatch;
   });
-  
+
   return (
     <div className={styles.container}>
       <img
@@ -63,16 +67,16 @@ export const SearchPage = () => {
             setFilters={setFilters}
             allAmenities={allAmenities}
             allLocations={allLocations}
+            currency={currency}
           />
         </div>
         <div className={styles.cardContainer}>
           {filteredProperties.map((property, idx) => (
             <CardComponent
               key={property.id}
-              property={{
-                ...property,
-                imageUrl: photos[idx]?.src.medium ?? "/fallback.jpg",
-              }}
+              property={property}
+              currency={currency}
+              imageUrl={photos[idx]?.src.medium ?? "/fallback.jpg"}
             />
           ))}
         </div>

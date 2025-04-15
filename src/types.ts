@@ -19,6 +19,27 @@ export interface Property {
   description: string;
   amenities: string[];
   location: string;
-  imageUrl: string;  
+  imageUrl: string;
 }
 
+export interface FiltersProps {
+  filters: {
+    location: string;
+    minPrice: number;
+    maxPrice: number;
+    minRating: number;
+    amenities: string[];
+  };
+  setFilters: React.Dispatch<
+    React.SetStateAction<{
+      location: string;
+      minPrice: number;
+      maxPrice: number;
+      minRating: number;
+      amenities: string[];
+    }>
+  >;
+  allAmenities: string[];
+  allLocations: string[];
+  currency?: "USD" | "CAD";
+};
