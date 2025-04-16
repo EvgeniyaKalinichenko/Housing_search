@@ -22,13 +22,13 @@
 .price,
 .scoreSpan{
   color: #333;
-  background: rgba(255, 255, 255, 0.6); // 👈 светлая "подушка"
+  background: rgba(255, 255, 255, 0.6);
   padding: 4px 12px;
-  border-radius: 999px; // 👈 делает форму овальной
-  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8); // 👈 мягкое белое свечение
+  border-radius: 999px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
   font-weight: 500;
   width: fit-content;
-  margin-left: auto; // если выравниваешь вправо
+  margin-left: auto;
 }
 
 
