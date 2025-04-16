@@ -14,11 +14,11 @@
 
 .h1{
   font-family: $main-font;
-  margin-top: -50px;
+  margin-top: -80px;
   color: white;
   z-index: 11;
-  margin-bottom: 40px;
-  // margin-left: -400px;
+  margin-bottom: 70px;
+  margin-left: -400px;
 }
 
 .mainInformation {
@@ -34,6 +34,7 @@
 
 .infoBlock{
   display: flex;
+  justify-content: space-between;
 
 }
 .info{
@@ -42,8 +43,24 @@
 flex-direction: column;
 }
 
+.facilitiesCard {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid #d6af65;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  backdrop-filter: blur(4px); // 👈 если хочешь стеклянный эффект
+  max-width: 300px;
+}
+
 .h4{
   margin-top: 0;
+}
+
+.rating{
+  font-size: larger;
+  font-weight: bold;
 }
 
 .amenities {
@@ -56,4 +73,9 @@ flex-direction: column;
   font-family: $main-font;
   font-size: 1.2rem;
 
+}
+
+.buttonContainer{
+margin-bottom: 10px;
+  margin-top: 25px;
 }

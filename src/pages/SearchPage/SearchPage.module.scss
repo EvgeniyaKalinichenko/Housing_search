@@ -12,6 +12,16 @@
   margin-bottom: 20px;
 }
 
+.title{
+  font-family: $main-font;
+  font-size: 2.5rem;
+  margin-top: -150px;
+  @include whiteTextWithOutline;
+  z-index: 11;
+  margin-bottom: 110px;
+  margin-left: -400px;
+}
+
 .content {
   display: flex;
   flex-direction: row;

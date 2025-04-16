@@ -23,3 +23,8 @@ $curly-font: "curly-font";
   src: url("./src/assets/Fonts/CormorantGaramond-SemiBoldItalic.ttf")
   
 }
+
+@mixin whiteTextWithOutline {
+  color: white;
+  text-shadow: 0 0 2px black, 0 0 4px black;
+}

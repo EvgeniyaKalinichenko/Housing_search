@@ -52,7 +52,7 @@ const Filters: React.FC<FiltersProps> = ({
           } else if (value === "500-800") {
             setFilters((prev) => ({ ...prev, minPrice: 500, maxPrice: 799 }));
           } else if (value === "800-1500") {
-            setFilters((prev) => ({ ...prev, minPrice: 800, maxPrice: 1499 }));
+            setFilters((prev) => ({ ...prev, minPrice: 800, maxPrice: 1500 }));
           } else {
             setFilters((prev) => ({
               ...prev,
@@ -117,7 +117,7 @@ const Filters: React.FC<FiltersProps> = ({
         </div>
       </fieldset>
 
-      <button
+      <button className={styles.button}
         type="button"
         onClick={() =>
           setFilters({

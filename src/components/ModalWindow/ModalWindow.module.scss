@@ -1,7 +1,7 @@
 @import "../../styles.scss";
 
 .modal {
-  background-color: #183a5a;
+  background-color: #316ea7;
   color: #ffffff;
   padding: 24px 32px;
   border-radius: 16px;
@@ -10,7 +10,7 @@
   text-align: center;
   font-family: "Segoe UI", sans-serif;
   position: relative;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid white;
   z-index: 1001;
   animation: scaleUp 0.4s ease forwards;
   display: flex;

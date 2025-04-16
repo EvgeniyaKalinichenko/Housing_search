@@ -1,3 +1,5 @@
+@import "../../styles.scss";
+
 .filters {
   display: flex;
   flex-direction: column;
@@ -11,20 +13,28 @@ select {
   color: #333;
   border-radius: 4px;
   outline: none;
+  font-family: $main-font;
+  font-size: 16px;
+  font-weight: 600;
 
   &:focus {
     border-color: #d6af65;
   }
 }
 
-button {
+.button {
+  font-family: $main-font;
+  font-weight: 500;
   background-color: #d6af65;
   color: white;
   border: none;
   padding: 8px 16px;
-  border-radius: 6px;
+  border-radius: 2px;
   cursor: pointer;
-  align-self: flex-start;
+  display: flex;
+  justify-self: flex-end;
+  margin-top: 7px;
+
 
   &:hover {
     background-color: #c39d52;
@@ -34,7 +44,7 @@ button {
 fieldset {
   border: 2px solid #d6af65;
   padding: 16px;
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .amenitiesGrid {

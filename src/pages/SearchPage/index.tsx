@@ -60,6 +60,7 @@ export const SearchPage = ({ currency }: { currency: "USD" | "CAD" }) => {
         }}
         className={styles.image}
       />
+      <h1 className={styles.title}>Find your dream hotel</h1>
       <div className={styles.content}>
         <div className={styles.filters}>
           <Filters

@@ -21,16 +21,17 @@ const CardComponent = ({ property, onClick, currency }: CardComponentProps) => {
       <div className={styles.content}>
         <h3 className={styles.h3}>{property.name}</h3>
         <div className={styles.location}>{property.location}</div>
-          <p>
-            {new Intl.NumberFormat("en-US", {
-              style: "currency",
-              currency: currency,
-            }).format(
-              currency === "USD" ? property.priceUSD : property.priceCAD
-            )}
-          </p>
+        <p className={styles.price}>
+          {new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: currency,
+          }).format(currency === "USD" ? property.priceUSD : property.priceCAD)}
+        </p>
 
-        <p>Review score {property.rating}</p>
+        <p className={styles.score}>
+          Review score{" "}
+          <span className={styles.scoreSpan}>{property.rating}</span>
+        </p>
         <Button
           text="See availability"
           small
