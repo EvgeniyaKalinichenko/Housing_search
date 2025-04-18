@@ -12,7 +12,7 @@
   margin-bottom: 20px;
 }
 
-.title{
+.title {
   font-family: $main-font;
   font-size: 2.5rem;
   margin-top: -150px;
@@ -29,7 +29,7 @@
   width: 100%;
 }
 
-.filters{
+.filters {
   width: 30%;
 }
 
@@ -37,4 +37,38 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  list-style: none;
+  gap: 10px;
+  padding: 0;
+}
+
+.page-item {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.page-item:hover {
+  background-color: #f0f0f0;
+}
+
+.active {
+  background-color: $color-gold;
+  color: $color-gold-dark;
+  border-color: $color-gold-dark;
+}
+
+.pagination_container {
+  display: flex;
+  align-self: flex-end;
+  margin-right: 10%;
 }

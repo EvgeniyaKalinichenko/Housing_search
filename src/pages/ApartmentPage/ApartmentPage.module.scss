@@ -35,7 +35,6 @@
 .infoBlock{
   display: flex;
   justify-content: space-between;
-
 }
 .info{
   margin-top: 0;
@@ -50,7 +49,7 @@ flex-direction: column;
   padding: 16px;
   margin-bottom: 16px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-  backdrop-filter: blur(4px); // 👈 если хочешь стеклянный эффект
+  backdrop-filter: blur(4px);
   max-width: 300px;
 }
 
@@ -72,7 +71,6 @@ flex-direction: column;
 .description{
   font-family: $main-font;
   font-size: 1.2rem;
-
 }
 
 .buttonContainer{
