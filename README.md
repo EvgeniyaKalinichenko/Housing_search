@@ -1,54 +1,60 @@
-# React + TypeScript + Vite
+# 🏨 Housing Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive web app for browsing and filtering hotels, built with **React**, **TypeScript**, and **Vite**. Includes amenities filtering, currency switching, image galleries, and pagination. Deployed via GitHub Pages.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [View Live Site](https://EvgeniyaKalinichenko.github.io/housing_search_project/)
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- 🔍 **Search Filters**
+  - Location
+  - Price range
+  - Rating
+  - Amenities (Wi-Fi, parking, pool, etc.)
+- 💱 **Currency Switcher** — USD / CAD
+- 🖼️ **Property Gallery** — with main and additional images
+- 📊 **Pagination** with `react-paginate`
+- 🌎 **Images from Pexels API**
+- 💡 Custom UI components with SCSS modules
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🛠️ Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React** + **TypeScript**
+- **Vite**
+- **React Router**
+- **react-paginate**
+- **react-icons**
+- **SCSS Modules**
+- **gh-pages** for deployment
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📁 Project Structure
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+src/ ├── assets/ // images and fonts ├── components/ // reusable UI components (Card, Button, Modal, etc.) ├── pages/ // route-based pages (MainPage, SearchPage, etc.) ├── mock_properties.json // mock data for property listings ├── types.ts // shared TypeScript types ├── App.tsx // main app component └── vite.config.ts // Vite config with base path for GitHub Pages
+
+
+## 🚀 Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+
+Start the dev server:
+
+npm run dev
+
+Build and deploy to GitHub Pages:
+
+npm run build
+npx gh-pages -d dist -b gh-pages
+
+## 🙋‍♀️ About the Developer
+
+**Evgeniia Kalinichenko**  
+Frontend Developer based in Canada 🇨🇦
+
+- [LinkedIn](https://www.linkedin.com/in/evgeniia-kalinichenko)
+- [GitHub](https://github.com/EvgeniyaKalinichenko)
