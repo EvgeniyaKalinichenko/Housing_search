@@ -6,6 +6,7 @@ import { API_KEY } from "../../APY_KEY";
 import Filters from "../../components/Filters";
 import styles from "./SearchPage.module.scss";
 import ReactPaginate from "react-paginate";
+import searchImage from "../../assets/Pictures/SeachPage_Image.png";
 
 export const SearchPage = ({ currency }: { currency: "USD" | "CAD" }) => {
   const [photos, setPhotos] = useState<Photo[]>([]);
@@ -65,7 +66,7 @@ export const SearchPage = ({ currency }: { currency: "USD" | "CAD" }) => {
   return (
     <div className={styles.container}>
       <img
-        src="src/assets/Pictures/SeachPage_Image.png"
+        src={searchImage}
         alt="SeachPage_Image"
         style={{ width: "70vw", height: "50vh" }}
         className={styles.image}

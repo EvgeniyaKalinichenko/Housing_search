@@ -11,7 +11,7 @@ function App() {
   const [currency, setCurrency] = useState<"USD" | "CAD">("USD");
 
   return (
-    <Router>
+    <Router basename="/housing_search_project">
       <Header currency={currency} setCurrency={setCurrency}/>
       <Routes>
         <Route path="/" element={<MainPage />} />

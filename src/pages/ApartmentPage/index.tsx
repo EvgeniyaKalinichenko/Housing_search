@@ -9,6 +9,7 @@ import styles from "./ApartmentPage.module.scss";
 import { Button } from "../../components/Button";
 import { SlCheck } from "react-icons/sl";
 import ModalWindow from "../../components/ModalWindow";
+import apartmentImage from "../../assets/Pictures/ApartmentPage_Image_copy.png";
 
 type ApartmentProps = {
   currency: "USD" | "CAD";
@@ -65,7 +66,7 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
   return (
     <div className={styles.container}>
       <img
-        src="/src/assets/Pictures/ApartmentPage_Image_copy.png"
+        src={apartmentImage}
         alt="ApartmentPage_Image"
         style={{
           width: "70vw",
