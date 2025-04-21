@@ -10,7 +10,7 @@ function App() {
   const [currency, setCurrency] = useState<"USD" | "CAD">("USD");
 
   return (
-    <Router basename={import.meta.env.MODE === "production" ? "/housing_search" : "/"}>
+    <Router>
       <Header currency={currency} setCurrency={setCurrency} />
       <Routes>
         <Route path="/" element={<MainPage />} />
