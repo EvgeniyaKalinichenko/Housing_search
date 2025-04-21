@@ -4,7 +4,7 @@ A responsive web app for browsing and filtering hotels, built with **React**, **
 
 ## 🔗 Live Demo
 
-👉 [View Live Site](https://EvgeniyaKalinichenko.github.io/housing_search/)
+👉 [View Live Site](https://EvgeniyaKalinichenko.github.io/Housing_search/)
 
 ---
 
