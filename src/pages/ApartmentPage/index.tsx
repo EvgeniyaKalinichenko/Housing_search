@@ -79,9 +79,6 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
       </h1>
       <div className={styles.mainInformation}>
         <div className={styles.gallery}>
-          {horizontalPhotos.length === 0 ? (
-            <p>No photos available</p>
-          ) : (
             <AliceCarousel
               mouseTracking
               items={carouselItems}
@@ -92,7 +89,6 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
               disableButtonsControls={false}
               disableDotsControls={false}
             />
-          )}
         </div>
         <div className={styles.info}>
           <div className={styles.infoBlock}>
