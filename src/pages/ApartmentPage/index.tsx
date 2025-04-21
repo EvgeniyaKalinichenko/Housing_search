@@ -30,7 +30,7 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
       src={photo.src.medium}
       onDragStart={handleDragStart}
       role="presentation"
-      alt={photo.alt ?? "Hotel photo"}
+      alt={photo.alt}
       style={{
         width: "100%",
         height: "300px",
@@ -75,7 +75,7 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
         className={styles.image}
       />
       <h1 className={styles.h1}>
-        Hotel {property.name.toUpperCase() ?? "Name"}
+        Hotel {property.name.toUpperCase()}
       </h1>
       <div className={styles.mainInformation}>
         <div className={styles.gallery}>
