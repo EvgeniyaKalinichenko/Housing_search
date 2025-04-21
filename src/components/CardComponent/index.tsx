@@ -10,13 +10,14 @@ export interface CardComponentProps {
   imageUrl: string;
 }
 
-const CardComponent = ({ property, onClick, currency }: CardComponentProps) => {
+const CardComponent = ({ property, onClick, currency, imageUrl }: CardComponentProps) => {
   const navigate = useNavigate();
 
   return (
     <div
       className={styles.card}
-      style={{ backgroundImage: `url(${property.imageUrl})` }}
+      style={{ backgroundImage: `url(${imageUrl})` }}
+
     >
       <div className={styles.content}>
         <h3 className={styles.h3}>{property.name}</h3>

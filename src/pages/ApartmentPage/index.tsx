@@ -30,7 +30,7 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
       src={photo.src.medium}
       onDragStart={handleDragStart}
       role="presentation"
-      alt={photo.alt}
+      alt={photo.alt ?? "Hotel photo"}
       style={{
         width: "100%",
         height: "300px",
@@ -74,19 +74,25 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
         }}
         className={styles.image}
       />
-      <h1 className={styles.h1}>Hotel {property.name.toUpperCase()}</h1>
+      <h1 className={styles.h1}>
+        Hotel {property.name.toUpperCase() ?? "Name"}
+      </h1>
       <div className={styles.mainInformation}>
         <div className={styles.gallery}>
-          <AliceCarousel
-            mouseTracking
-            items={carouselItems}
-            autoPlay
-            autoPlayInterval={3000}
-            animationDuration={1000}
-            infinite
-            disableButtonsControls={false}
-            disableDotsControls={false}
-          />
+          {horizontalPhotos.length === 0 ? (
+            <p>No photos available</p>
+          ) : (
+            <AliceCarousel
+              mouseTracking
+              items={carouselItems}
+              autoPlay
+              autoPlayInterval={3000}
+              animationDuration={1000}
+              infinite
+              disableButtonsControls={false}
+              disableDotsControls={false}
+            />
+          )}
         </div>
         <div className={styles.info}>
           <div className={styles.infoBlock}>
@@ -105,12 +111,12 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
                 <span className={styles.rating}>{property.rating}</span>
               </p>
               <div className={styles.buttonContainer}>
-              <Button
-                text="Book Now"
-                onClick={() => {
-                  setIsActive(true);
-                }}
-              />
+                <Button
+                  text="Book Now"
+                  onClick={() => {
+                    setIsActive(true);
+                  }}
+                />
               </div>
             </div>
 

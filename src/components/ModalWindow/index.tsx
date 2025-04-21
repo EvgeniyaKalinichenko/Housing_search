@@ -17,7 +17,7 @@ export default function ModalWindow({ IsActive, setIsActive }: IModal) {
         >
           <div className={styles.content}>
             <button className={styles.button} onClick={() => setIsActive && setIsActive(false)}>
-              <SlClose style={{ width: "33px", height: "33px ", color: "grey"}}/>
+              <SlClose style={{ width: "33px", height: "33px", color: "grey"}}/>
             </button>
             <div className={styles.container}>
               <h2 className={styles.text}>Great!</h2>

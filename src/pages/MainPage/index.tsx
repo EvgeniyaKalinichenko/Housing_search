@@ -1,8 +1,11 @@
 import { Button } from "../../components/Button";
 import mainImage from "../../assets/Pictures/Main_Image.png";
 import styles from "./MainPage.module.scss";
+import { useNavigate } from "react-router-dom";
 
 export const MainPage = () => {
+  const navigate = useNavigate();
+
   return (
     <div
       className={styles.container}
@@ -16,14 +19,11 @@ export const MainPage = () => {
     >
       <h1 className={styles.h1}>Find your next stay</h1>
       <p className={styles.paragraph}>
-        Search deals on hotels, homes, and much more.{" "}
+        Search deals on hotels, homes, and much more.
       </p>
       <p className={styles.paragraph}>Feel freedom and quality of life.</p>
       <div className={styles.button}>
-        <Button
-          text="Search"
-          onClick={() => (window.location.href = "/search")}
-        />
+        <Button text="Search" onClick={() => navigate("/search")} />
       </div>
     </div>
   );

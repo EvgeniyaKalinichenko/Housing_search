@@ -88,7 +88,8 @@ export const SearchPage = ({ currency }: { currency: "USD" | "CAD" }) => {
               key={property.id}
               property={property}
               currency={currency}
-              imageUrl={photos[idx + offset]?.src.medium ?? "/fallback.jpg"}
+              imageUrl={photos[idx + offset]?.src.medium ?? "https://via.placeholder.com/400x300"}
+
             />
           ))}
         </div>
