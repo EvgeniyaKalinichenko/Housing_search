@@ -55,6 +55,14 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
       .finally(() => setLoading(false));
   }, [id]);
 
+  useEffect(() => {
+    if (photos.length > 0) {
+      setTimeout(() => {
+        window.dispatchEvent(new Event("resize"));
+      }, 200);
+    }
+  }, [photos]);
+
   if (loading) return <div>Loading…</div>;
   if (!property) return <div>Option not found</div>;
 
