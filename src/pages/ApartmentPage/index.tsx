@@ -69,13 +69,12 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
         }}
         className={styles.image}
       />
-      <h1 className={styles.h1}>
-        Hotel {property.name.toUpperCase()}
-      </h1>
+      <h1 className={styles.h1}>Hotel {property.name.toUpperCase()}</h1>
       <div className={styles.mainInformation}>
         <div className={styles.gallery}>
+          {horizontalPhotos.length > 0 && (
             <AliceCarousel
-            key={horizontalPhotos.length}
+              key={horizontalPhotos.length}
               mouseTracking
               items={carouselItems}
               autoPlay
@@ -85,6 +84,7 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
               disableButtonsControls={false}
               disableDotsControls={false}
             />
+          )}
         </div>
         <div className={styles.info}>
           <div className={styles.infoBlock}>
