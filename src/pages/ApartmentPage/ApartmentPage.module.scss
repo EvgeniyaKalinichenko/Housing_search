@@ -32,6 +32,13 @@
   width: 500px;
 }
 
+.carouselImage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
 .infoBlock{
   display: flex;
   justify-content: space-between;

@@ -31,12 +31,7 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
       onDragStart={handleDragStart}
       role="presentation"
       alt={photo.alt}
-      style={{
-        width: "100%",
-        height: "300px",
-        objectFit: "cover",
-        borderRadius: "2px",
-      }}
+      className={styles.carouselImage}
     />
   ));
 
@@ -80,6 +75,7 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
       <div className={styles.mainInformation}>
         <div className={styles.gallery}>
             <AliceCarousel
+            key={horizontalPhotos.length}
               mouseTracking
               items={carouselItems}
               autoPlay
