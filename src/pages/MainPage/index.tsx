@@ -30,7 +30,7 @@ export const MainPage = () => {
         height: "90vh",
       }}
     >
-      <div className="pageWrapper"></div>
+      <div className="pageWrapper">
       <h1 className={styles.h1}>Find your next stay</h1>
       <p className={styles.paragraph}>
         Search deals on hotels, homes, and much more.
@@ -42,6 +42,7 @@ export const MainPage = () => {
           onClick={() => navigate("/search")}
           {...(isMobile ? { small: true } : {})}
         />
+      </div>
       </div>
     </div>
   );
