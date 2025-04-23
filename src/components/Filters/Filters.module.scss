@@ -64,3 +64,47 @@ label {
     accent-color: #d6af65;
   }
 }
+
+@media (max-width: 768px) {
+  .amenitiesGrid {
+    grid-template-columns: 1fr;
+  }
+
+  select {
+    width: 100%;
+    font-size: 15px;
+  }
+
+  .button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  fieldset {
+    padding: 12px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  select {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .button {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+
+  fieldset {
+    padding: 10px;
+  }
+
+  .amenitiesGrid {
+    gap: 8px;
+  }
+}

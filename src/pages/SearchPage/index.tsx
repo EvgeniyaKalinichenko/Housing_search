@@ -68,7 +68,7 @@ export const SearchPage = ({ currency }: { currency: "USD" | "CAD" }) => {
       <img
         src={searchImage}
         alt="SeachPage_Image"
-        style={{ width: "70vw", height: "50vh" }}
+        style={{ width: "100%", height: "50vh" }}
         className={styles.image}
       />
       <h1 className={styles.title}>Find your dream hotel</h1>

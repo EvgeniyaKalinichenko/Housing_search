@@ -23,6 +23,7 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
   const [loading, setLoading] = useState(true);
   const handleDragStart = (e: React.DragEvent) => e.preventDefault();
   const [IsActive, setIsActive] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
   const horizontalPhotos = photos.filter((photo) => photo.width > photo.height);
   const carouselItems = horizontalPhotos.map((photo) => (
     <img
@@ -34,6 +35,16 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
       className={styles.carouselImage}
     />
   ));
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 480);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const found = properties.find((p) => p.id === id) ?? null;
@@ -111,12 +122,21 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
                 <span className={styles.rating}>{property.rating}</span>
               </p>
               <div className={styles.buttonContainer}>
-                <Button
-                  text="Book Now"
-                  onClick={() => {
-                    setIsActive(true);
-                  }}
-                />
+                {isMobile ? (
+                  <Button
+                    text="Book Now"
+                    onClick={() => {
+                      setIsActive(true);
+                    }}
+                  />
+                ) : (
+                  <Button
+                    text="Book Now"
+                    onClick={() => {
+                      setIsActive(true);
+                    }}
+                  />
+                )}
               </div>
             </div>
 

@@ -1,19 +1,70 @@
 @use "../../styles.scss" as *;
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-position: center;
+  padding: 20px;
+}
+
 .h1 {
   font-size: 2.5rem;
   color: $white-text-color;
   padding-left: 150px;
   padding-top: 150px;
   display: inline-block;
+
+  @media (max-width: 1024px) {
+    font-size: 2rem;
+    padding-left: 80px;
+    padding-top: 100px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.75rem;
+    padding-left: 40px;
+    padding-top: 80px;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.5rem;
+    padding-left: 20px;
+    padding-top: 60px;
+  }
 }
 
-.paragraph{
+.paragraph {
   @include whiteTextWithOutline;
   padding-left: 150px;
+
+  @media (max-width: 1024px) {
+    padding-left: 80px;
+  }
+
+  @media (max-width: 768px) {
+    padding-left: 40px;
+  }
+
+  @media (max-width: 480px) {
+    padding-left: 20px;
+    font-size: 0.9rem;
+  }
 }
 
 .button {
   margin-left: 150px;
-  margin-top: 60px;
+  margin-top: 50px;
+
+  @media (max-width: 1024px) {
+    margin-left: 80px;
+  }
+
+  @media (max-width: 768px) {
+    margin-left: 40px;
+  }
+
+  @media (max-width: 480px) {
+    margin-left: 20px;
+  }
 }

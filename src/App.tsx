@@ -10,6 +10,7 @@ function App() {
   const [currency, setCurrency] = useState<"USD" | "CAD">("USD");
 
   return (
+    <div className="pageWrapper">
     <Router>
       <Header currency={currency} setCurrency={setCurrency} />
       <Routes>
@@ -18,6 +19,7 @@ function App() {
         <Route path="/apartment/:id" element={<ApartmentPage currency={currency} setCurrency={setCurrency} />} />
       </Routes>
     </Router>
+    </div>
   );
 }
 

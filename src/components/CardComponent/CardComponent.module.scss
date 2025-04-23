@@ -61,3 +61,49 @@
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 1024px) {
+  .card {
+    height: 260px;
+    max-width: 100%;
+  }
+
+  .h3 {
+    font-size: 1rem;
+  }
+
+  .price,
+  .scoreSpan {
+    font-size: 0.9rem;
+    padding: 4px 10px;
+  }
+
+  .location {
+    font-size: 0.85rem;
+  }
+
+  .score {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .card {
+    height: 240px;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .content {
+    padding: 10px;
+  }
+
+  .price {
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+  .score {
+    margin-right: 10px;
+  }
+}

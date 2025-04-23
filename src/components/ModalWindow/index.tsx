@@ -8,24 +8,20 @@ export interface IModal {
 }
 
 export default function ModalWindow({ IsActive, setIsActive }: IModal) {
-  return (
-    <>
-      {IsActive ? (
-        <div
-          className={styles.modal}
-          onClick={() => setIsActive && setIsActive(false)}
+  return IsActive ? (
+    <div className={styles.modalOverlay} onClick={() => setIsActive?.(false)}>
+      <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
+        <button
+          className={styles.button}
+          onClick={() => setIsActive?.(false)}
         >
-          <div className={styles.content}>
-            <button className={styles.button} onClick={() => setIsActive && setIsActive(false)}>
-              <SlClose style={{ width: "33px", height: "33px", color: "grey"}}/>
-            </button>
-            <div className={styles.container}>
-              <h2 className={styles.text}>Great!</h2>
-              <div className={styles.text}>Have a nice rest!</div>
-            </div>
-          </div>
+          <SlClose className={styles.icon} />
+        </button>
+        <div className={styles.content}>
+          <h2 className={styles.text}>Great!</h2>
+          <div className={styles.text}>Have a nice rest!</div>
         </div>
-      ) : null}
-    </>
-  );
+      </div>
+    </div>
+  ) : null;
 }
