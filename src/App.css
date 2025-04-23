@@ -10,7 +10,6 @@ body{
   justify-content: center;
 }
 
-/* Глобальный контейнер для центрирования */
 .pageWrapper {
   max-width: 1280px;
   margin: 0 auto;
@@ -18,7 +17,6 @@ body{
   width: 100%;
 }
 
-/* Сброс скролла и зазоров */
 * {
   box-sizing: border-box;
 }
@@ -27,5 +25,4 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: sans-serif;
 }

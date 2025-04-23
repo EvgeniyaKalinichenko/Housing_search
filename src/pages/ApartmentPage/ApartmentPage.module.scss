@@ -146,6 +146,7 @@
 .description {
   font-family: $main-font;
   font-size: 1.2rem;
+  margin-bottom: 10px;
 
   @media (max-width: 768px) {
     font-size: 1rem;
