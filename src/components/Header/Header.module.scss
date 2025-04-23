@@ -32,7 +32,6 @@
   gap: 16px;
 
   @media (max-width: 768px) {
-    align-items: flex-start;
     gap: 8px;
   }
 }
@@ -53,7 +52,6 @@
   .header {
     height: auto;
     padding: 8px 0;
-    align-items: flex-start;
     gap: 8px;
   }
 

@@ -83,7 +83,7 @@ export const ApartmentPage = ({ currency }: ApartmentProps) => {
         src={apartmentImage}
         alt="ApartmentPage_Image"
         style={{
-          width: "70vw",
+          width: "100%",
           height: "50vh",
         }}
         className={styles.image}
